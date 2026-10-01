@@ -193,12 +193,12 @@ endmacro()
 
 macro(build_etiss)
     # TODO
-    if(NOT EXISTS "${TOOLCHAIN_TOP}/etiss_base/etiss_rvv/build/installed/bin/bare_etiss_processor")
-        message("ETISS Executable not present!  Building it now.")
+    if(NOT EXISTS "${TOOLCHAIN_TOP}/etiss_base/etiss/build/installed/bin/bare_etiss_processor")
+        message("ETISS Executable not present! Building it now.")
         # Make sure required dependencies are installed for ETISS
         if(DIST STREQUAL "Ubuntu")
             message(STATUS "Downloading Ubuntu Dependencies")
-            execute_process(COMMAND sudo apt install build-essential libboost-all-dev libtinfo-dev zlib1g-dev
+            execute_process(COMMAND sudo apt install build-essential git cmake libboost-filesystem-dev libboost-program-options-dev
                             WORKING_DIRECTORY ${TOOLCHAIN_TOP})
         elseif(DIST STREQUAL "Fedora")
             message(WARNING "Downloading Fedora Dependencies - WARNING THIS IS UNTESTED")
@@ -209,12 +209,13 @@ macro(build_etiss)
         endif()
 
 
-        message(WARNING "ETISS build is not fully automated yet.  This might fail. Ensure that the bare_etiss_processor binary is built and present in ${TOOLCHAIN_TOP}/etiss_base/etiss_rvv/build/installed/bin/bare_etiss_processor")
-        execute_process(COMMAND mkdir -p build
-                        WORKING_DIRECTORY ${TOOLCHAIN_TOP}/etiss_base/etiss_rvv/)
-        execute_process(COMMAND cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=./installed ..
-                        WORKING_DIRECTORY ${TOOLCHAIN_TOP}/etiss_base/etiss_rvv/build)
-        execute_process(COMMAND make -j32 -s install
-                        WORKING_DIRECTORY ${TOOLCHAIN_TOP}/etiss_base/etiss_rvv/build)
+        set(ETISS_DIR ${TOOLCHAIN_TOP}/etiss_base/etiss)
+        set(ETISS_BUILD_DIR ${ETISS_DIR}/build)
+        set(ETISS_INSTALL_DIR ${ETISS_BUILD_DIR}/installed)
+        message(WARNING "ETISS build is not fully automated yet. This might fail. "
+                        "Ensure that the bare_etiss_processor binary is built and present in ${TOOLCHAIN_TOP}/etiss_base/etiss/build/bin/bare_etiss_processor")
+        execute_process(COMMAND nproc OUTPUT_VARIABLE NPROC OUTPUT_STRIP_TRAILING_WHITESPACE)
+        execute_process(COMMAND cmake -S ${ETISS_DIR} -B ${ETISS_BUILD_DIR} -DCMAKE_BUILD_TYPE=Release -DETISS_BUILD_MANUAL_DOC=ON -DCMAKE_INSTALL_PREFIX:PATH=${ETISS_INSTALL_DIR})
+        execute_process(COMMAND cmake --build ${ETISS_BUILD_DIR} --target install -j${NPROC})
     endif()
 endmacro()

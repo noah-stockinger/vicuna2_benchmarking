@@ -72,7 +72,7 @@ macro(add_muriscv_nn_test TEST)
     message(${BINARY_DIR})
     add_test(NAME ${TEST_NAME} 
         COMMAND 
-            ${TOOLCHAIN_TOP}/etiss_base/etiss_rvv/build/installed/bin/bare_etiss_processor 
+            ${TOOLCHAIN_TOP}/etiss_base/etiss/build/bin/bare_etiss_processor 
             -i${FRAMEWORK_TOP}/etiss/etiss.ini 
             --vp.elf_file=${BINARY_DIR}/tflm/${TEST_NAME}.elf
         WORKING_DIRECTORY ${CMAKE_RUNTIME_OUTPUT_DIRECTORY})

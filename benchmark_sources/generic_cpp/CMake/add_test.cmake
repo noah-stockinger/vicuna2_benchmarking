@@ -168,7 +168,7 @@ macro(add_benchmark_etiss TEST TEST_NUM)
 
     add_test(NAME ${TEST_NAME} 
         COMMAND 
-            ${TOOLCHAIN_TOP}/etiss_base/etiss_rvv/build/installed/bin/bare_etiss_processor 
+            ${TOOLCHAIN_TOP}/etiss_base/etiss/build/bin/bare_etiss_processor 
             -i${FRAMEWORK_TOP}/etiss/etiss.ini 
             --vp.elf_file=${CMAKE_CURRENT_BINARY_DIR}/${TEST_NAME}.elf
         WORKING_DIRECTORY ${CMAKE_RUNTIME_OUTPUT_DIRECTORY})

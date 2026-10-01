@@ -7,7 +7,6 @@ batch_model_name = "perfModel->vectorBatchHandModel"
 group_batch_fun_mapping = {
     "V_vmv_v_i": "getLmul()",
     "V_vmv_regs": "getNfSimm5()",
-    "V_vmv_x_s": "one()",
     "V_vmv_s_x": "one()",
     "V_Load": "getLoadStoreEmul()",
     "V_Load_Registers": "getNf()",
@@ -16,7 +15,8 @@ group_batch_fun_mapping = {
     "V_Div_vv": "getLmul()",
     "V_Div_vx": "getLmul()",
     "V_Ext": "getLmul()",
-    "V_RED_vv": "getLmul()",
+    "V_REDSUM": "getLmul()",
+    "V_REDMINMAX": "getLmul()",
     "V_ALU_vv": "getLmul()",
     "V_MUL_vv": "getLmul()",
     "V_ALU_Widening_vv": "getLmul() * 2",
@@ -26,12 +26,15 @@ group_batch_fun_mapping = {
     "V_ALU_Widening_vx": "getLmul() * 2",
     "V_MUL_Widening_vx": "getLmul() * 2",
     "V_ALU_vi": "getLmul()",
+    "V_SLD": "getLmul()",
+    "V_ELEM": "getLmul()",
+    "V_INDEX": "getLmul()",
+    "V_XRESULT": "one()",
 }
 
 group_mapping = {
     "V_vmv_v_i": ["vmv_v_i"],
     "V_vmv_regs": ["vmvr_v"],
-    "V_vmv_x_s": ["vmv_x_s"],
     "V_vmv_s_x": ["vmv_s_x"],
     "V_Load": ["vle32_v", "vle16_v", "vle8_v"],
     "V_Load_Registers": ["vl8r_v", "vl16r_v", "l32r_v"],
@@ -47,16 +50,12 @@ group_mapping = {
         "vzext_vf8",
         "vsext_vf8",
     ],
-    "V_RED_vv": [
-        "vcompress_vm",
-        "vredsum_vs",
+    "V_REDSUM": ["vredsum_vs", "vredand_vs", "vredor_vs", "vredxor_vs"],
+    "V_REDMINMAX": [
         "vredmaxu_vs",
         "vredmax_vs",
         "vredminu_vs",
         "vredmin_vs",
-        "vredand_vs",
-        "vredor_vs",
-        "vredxor_v",
     ],
     "V_ALU_vv": [
         "vadd_vv",
@@ -160,10 +159,6 @@ group_mapping = {
         "vsmul_vx",
         "vssrl_vx",
         "vssra_vx",
-        "vslideup_vx",
-        "vslidedown_vx",
-        "vslide1up_vx",
-        "vslide1down_vx",
     ],
     "V_MUL_vx": [
         "vmul_vx",
@@ -219,6 +214,10 @@ group_mapping = {
         "vslideup_vi",
         "vslidedown_vi",
     ],
+    "V_SLD": ["vslideup_vx", "vslidedown_vx", "vslide1up_vx", "vslide1down_vx"],
+    "V_ELEM": ["vcompress_vm"],
+    "V_XRESULT": ["vfirst_m, vcpop_m, vmv_x_s"],
+    "V_INDEX": ["vid_v", "viota.m"],
     "V_vsetivli": ["vsetivli"],
     "V_vsetvli": ["vsetvli"],
     "V_vsetvl": ["vsetvl"],
@@ -427,15 +426,23 @@ def main():
                             for calc_line in batch_calc_stack:
                                 pipe = "V1" if "V1" in calc_line else "V2"
                                 if f"n_V1_Unpack_1 =" in calc_line:
-                                    calc_line = calc_line.replace("n_V_DISP_stg", f"(batch_i == 0 ? n_V_DISP_stg : n_V1_Unpack_1_stg)")
+                                    calc_line = calc_line.replace(
+                                        "n_V_DISP_stg",
+                                        f"(batch_i == 0 ? n_V_DISP_stg : n_V1_Unpack_1_stg)",
+                                    )
+                                    # calc_line = calc_line.replace("n_V_DISP_stg", f"std::max()")
                                 elif f"{first_var} =" in calc_line:
-                                    delay_fun = calc_line[calc_line.find("+") + 1:].strip()[:-1]
+                                    delay_fun = calc_line[
+                                        calc_line.find("+") + 1 :
+                                    ].strip()[:-1]
                                     # print(delay_fun)
-                                    calc_line = f"{first_var} = (batch_i == 0 ? n_V_DISP_stg : n_{pipe}_Unpack_1_stg);\n"
+                                    calc_line = f"{first_var} = (batch_i == 0 ? n_V_DISP_stg : n_{pipe}_Unpack_stg);\n"
                                 group_cpp.write(calc_line)
 
                                 if f"n_{pipe}_Unpack_1_stg =" in calc_line:
-                                    group_cpp.write(f"n_{pipe}_Unpack_1_stg += {delay_fun} - 1;\n")
+                                    group_cpp.write(
+                                        f"n_{pipe}_Unpack_1_stg += {delay_fun} - 1;\n"
+                                    )
 
                             batch_calc_stack = []
                             group_cpp.write("}\n")

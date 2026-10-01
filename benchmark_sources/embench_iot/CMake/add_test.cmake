@@ -71,7 +71,7 @@ macro(add_Benchmark_Verilator TEST)
         COMMAND ./${VERILATOR_MODEL_DIR}/build/verilated_model ${CMAKE_CURRENT_BINARY_DIR}/prog_${TEST_NAME}.txt ${MEM_PORTS} ${MEM_W} 4194304 ${MEM_LATENCY} 1 ${TEST_NAME} ${VREG_W} 0 ${VERILATOR_EXE_FLAGS} #TODO: PASS ALL THESE ARGUMENTS IN FROM USER
         WORKING_DIRECTORY ${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/../..)
 
-    set_tests_properties(${TEST_NAME} PROPERTIES TIMEOUT 1000) #TODO: Find a reasonable timeout for these tests
+    set_tests_properties(${TEST_NAME} PROPERTIES TIMEOUT 100) #TODO: Find a reasonable timeout for these tests
 
     message(STATUS "Successfully added ${TEST_NAME}")
 
@@ -288,7 +288,7 @@ macro(add_Benchmark_Etiss TEST)
     if(${ETISS_PERF_TRACE_DIR} STREQUAL "NONE")
         add_test(NAME ${TEST_NAME}
             COMMAND
-            ${TOOLCHAIN_TOP}/etiss_base/etiss_rvv/build/bin/bare_etiss_processor
+            ${TOOLCHAIN_TOP}/etiss_base/etiss/build/bin/bare_etiss_processor
             -i${FRAMEWORK_TOP}/etiss/etiss.ini
             --vp.elf_file=${CMAKE_CURRENT_BINARY_DIR}/${TEST_NAME}.elf
             --arch.cpu=RV32IMACFDV_zvl${VREG_W}b
@@ -304,7 +304,7 @@ macro(add_Benchmark_Etiss TEST)
         configure_file(${DYN_INI_IN} ${DYN_INI} @ONLY)
         add_test(NAME ${TEST_NAME}
             COMMAND
-            ${TOOLCHAIN_TOP}/etiss_base/etiss_perfsim/etiss-perf-sim/etiss/build_dir/bin/bare_etiss_processor
+            ${TOOLCHAIN_TOP}/etiss_base/etiss_perfsim/etiss-perf-sim/etiss/build/bin/bare_etiss_processor
             -i${DYN_INI}
             -i${INI_DIR}/etiss.ini
             --vp.elf_file=${CMAKE_CURRENT_BINARY_DIR}/${TEST_NAME}.elf
