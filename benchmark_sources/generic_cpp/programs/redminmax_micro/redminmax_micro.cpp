@@ -1,30 +1,31 @@
 #include "redminmax_micro.hpp"
 
 /*
- * Each (load, op) pair is one asm block, so the compiler cannot place its own vector code
- * between vsetvl and the reductions. vtype comes from a register (vsetvl), so one block
- * serves every LMUL; only the load (element width) and the reduction differ.
+ * One asm block per (load, op), so the compiler can't put vector code between vsetvl and the
+ * reductions. vmv.x.s at the end makes the scalar core wait for the last reduction.
  *
- * vmv.x.s at the end writes a scalar register, so the scalar core has to wait for the last
- * reduction before end_measurement() reads mcycle.
+ * Workarounds for core bugs at LMUL > 1 (e54481e):
+ *  - accumulator v16, not v1: odd vs1/vd trap (vproc_decoder.sv:5111)
+ *  - seed written at LMUL 1: vmv.s.x hangs the pipeline (vproc_decoder.sv:4638)
  */
 #define RED8(OP) OP "\n" OP "\n" OP "\n" OP "\n" OP "\n" OP "\n" OP "\n" OP "\n"
 
 #define KERNEL(LOAD, OP)                                                        \
   asm volatile(                                                                 \
+      "vsetvl  t0, %[vl], %[vtype1]\n"                                          \
+      "vmv.s.x v16, %[seed]\n"                                                  \
       "vsetvl  t0, %[vl], %[vtype]\n"                                           \
       LOAD "   v8, (%[src])\n"                                                  \
-      "vmv.s.x v1, %[seed]\n"                                                   \
       "mv      t1, %[iters]\n"                                                  \
       "1:\n"                                                                    \
-      RED8(OP " v1, v8, v1")                                                    \
+      RED8(OP " v16, v8, v16")                                                  \
       "addi    t1, t1, -1\n"                                                    \
       "bnez    t1, 1b\n"                                                        \
-      "vmv.x.s %[res], v1\n"                                                    \
+      "vmv.x.s %[res], v16\n"                                                   \
       : [res] "=&r"(res)                                                        \
-      : [vl] "r"(vl), [vtype] "r"(vtype), [src] "r"(src), [seed] "r"(seed),    \
-        [iters] "r"(iters)                                                      \
-      : "t0", "t1", "v1", "v8", "v9", "v10", "v11", "v12", "v13", "v14", "v15", \
+      : [vl] "r"(vl), [vtype] "r"(vtype), [vtype1] "r"(vtype1),                 \
+        [src] "r"(src), [seed] "r"(seed), [iters] "r"(iters)                    \
+      : "t0", "t1", "v16", "v8", "v9", "v10", "v11", "v12", "v13", "v14", "v15", \
         "memory")
 
 #define KERNEL_OPS(LOAD)                                                        \
@@ -41,7 +42,8 @@ int32_t redminmax_micro(uint32_t op, uint32_t sew, uint32_t lmul, uint32_t vl,
   // vtype = vma | vta | vsew | vlmul
   uint32_t vsew  = (sew == 8) ? 0 : (sew == 16) ? 1 : 2;
   uint32_t vlmul = (lmul == 1) ? 0 : (lmul == 2) ? 1 : (lmul == 4) ? 2 : 3;
-  uint32_t vtype = (1u << 7) | (1u << 6) | (vsew << 3) | vlmul;
+  uint32_t vtype  = (1u << 7) | (1u << 6) | (vsew << 3) | vlmul;
+  uint32_t vtype1 = vtype & ~0x7u;  // same SEW and policy, LMUL 1 (for vmv.s.x, see above)
   uint32_t iters = reps / 8;
   int32_t  res   = 0;
 
