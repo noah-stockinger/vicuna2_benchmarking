@@ -1,0 +1,5 @@
+date: 2026-10-07T12:51:19
+vicuna2_benchmarking: b6bf225
+vicuna2_core: e54481e
+verilator: Verilator 5.050 2026-07-01 rev v5.050
+gcc: riscv32-unknown-elf-gcc () 16.1.0
