@@ -35,6 +35,12 @@ def git(*args, cwd=ROOT):
         return "unknown"
 
 
+def repo_state():
+    """Short HEAD, plus ' (dirty)' if tracked files outside results/ differ from it."""
+    dirty = git("status", "--porcelain", "--untracked-files=no", "--", ".", ":(exclude)results")
+    return git("rev-parse", "--short", "HEAD") + (" (dirty)" if dirty else "")
+
+
 def tool_version(cmd):
     try:
         return subprocess.run(cmd, capture_output=True, text=True).stdout.splitlines()[0]
@@ -113,8 +119,7 @@ def main():
     shutil.copy(args.log, out / "LastTest.log")
     (out / "meta.txt").write_text(
         f"date: {datetime.datetime.now().isoformat(timespec='seconds')}\n"
-        f"vicuna2_benchmarking: {git('rev-parse', '--short', 'HEAD')}"
-        f"{' (dirty)' if git('status', '--porcelain', '--untracked-files=no') else ''}\n"
+        f"vicuna2_benchmarking: {repo_state()}\n"
         f"vicuna2_core: {core}\n"
         f"verilator: {tool_version([str(ROOT / 'toolchain/verilator/bin/verilator'), '--version'])}\n"
         f"gcc: {tool_version([str(ROOT / 'toolchain/GCC/multilib/bin/riscv32-unknown-elf-gcc'), '--version'])}\n"

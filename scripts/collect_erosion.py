@@ -20,7 +20,7 @@ import re
 import shutil
 from pathlib import Path
 
-from collect_redminmax_micro import git, tool_version, ROOT, DEFAULT_LOG
+from collect_redminmax_micro import git, repo_state, tool_version, ROOT, DEFAULT_LOG
 
 INDEX = ROOT / "benchmark_sources" / "generic_cpp" / "programs" / "erosion_redmin" / "test_data" / "INDEX.csv"
 NAME = re.compile(r"^\d+/\d+ Test: erosion_redmin_(\d+)_Verilator$")
@@ -79,8 +79,7 @@ def main():
     shutil.copy(args.log, out / "LastTest.log")
     (out / "meta.txt").write_text(
         f"date: {datetime.datetime.now().isoformat(timespec='seconds')}\n"
-        f"vicuna2_benchmarking: {git('rev-parse', '--short', 'HEAD')}"
-        f"{' (dirty)' if git('status', '--porcelain', '--untracked-files=no') else ''}\n"
+        f"vicuna2_benchmarking: {repo_state()}\n"
         f"vicuna2_core: {core}\n"
         f"verilator: {tool_version([str(ROOT / 'toolchain/verilator/bin/verilator'), '--version'])}\n"
         f"gcc: {tool_version([str(ROOT / 'toolchain/GCC/multilib/bin/riscv32-unknown-elf-gcc'), '--version'])}\n"
