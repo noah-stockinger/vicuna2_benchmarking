@@ -1,0 +1,2067 @@
+Start testing: Oct 07 14:26 UTC
+----------------------------------------------------------
+276/292 Testing: maxpool_redmax_132_Verilator
+276/292 Test: maxpool_redmax_132_Verilator
+Command: "/work/processor_models/verilator/build/verilated_model" "/work/build_programs/build/benchmark_sources/generic_cpp/prog_maxpool_redmax_132_Verilator.txt" "1" "32" "4194304" "1" "1" "maxpool_redmax_132_Verilator" "128" "0"
+Directory: /../..
+"maxpool_redmax_132_Verilator" start time: Oct 07 14:26 UTC
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       155601
+Total Instructions: 34500
+
+Testcase:
+
+Max pool s8 (vredmax): N=1 H=16 W=16 C=64 filter 4x4 stride 4x4 pad 0x0 -> 4x4
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.57 sec
+----------------------------------------------------------
+Test Passed.
+"maxpool_redmax_132_Verilator" end time: Oct 07 14:26 UTC
+"maxpool_redmax_132_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+269/292 Testing: maxpool_redmax_125_Verilator
+269/292 Test: maxpool_redmax_125_Verilator
+Command: "/work/processor_models/verilator/build/verilated_model" "/work/build_programs/build/benchmark_sources/generic_cpp/prog_maxpool_redmax_125_Verilator.txt" "1" "32" "4194304" "1" "1" "maxpool_redmax_125_Verilator" "128" "0"
+Directory: /../..
+"maxpool_redmax_125_Verilator" start time: Oct 07 14:26 UTC
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       177000
+Total Instructions: 45100
+
+Testcase:
+
+Max pool s8 (vredmax): N=1 H=16 W=16 C=32 filter 2x2 stride 2x2 pad 0x0 -> 8x8
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.65 sec
+----------------------------------------------------------
+Test Passed.
+"maxpool_redmax_125_Verilator" end time: Oct 07 14:26 UTC
+"maxpool_redmax_125_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+275/292 Testing: maxpool_redmax_131_Verilator
+275/292 Test: maxpool_redmax_131_Verilator
+Command: "/work/processor_models/verilator/build/verilated_model" "/work/build_programs/build/benchmark_sources/generic_cpp/prog_maxpool_redmax_131_Verilator.txt" "1" "32" "4194304" "1" "1" "maxpool_redmax_131_Verilator" "128" "0"
+Directory: /../..
+"maxpool_redmax_131_Verilator" start time: Oct 07 14:26 UTC
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       190200
+Total Instructions: 44209
+
+Testcase:
+
+Max pool s8 (vredmax): N=1 H=16 W=16 C=64 filter 3x3 stride 3x3 pad 0x0 -> 5x5
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.70 sec
+----------------------------------------------------------
+Test Passed.
+"maxpool_redmax_131_Verilator" end time: Oct 07 14:26 UTC
+"maxpool_redmax_131_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+264/292 Testing: maxpool_redmax_120_Verilator
+264/292 Test: maxpool_redmax_120_Verilator
+Command: "/work/processor_models/verilator/build/verilated_model" "/work/build_programs/build/benchmark_sources/generic_cpp/prog_maxpool_redmax_120_Verilator.txt" "1" "32" "4194304" "1" "1" "maxpool_redmax_120_Verilator" "128" "0"
+Directory: /../..
+"maxpool_redmax_120_Verilator" start time: Oct 07 14:26 UTC
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       89944
+Total Instructions: 23532
+
+Testcase:
+
+Max pool s8 (vredmax): N=1 H=16 W=16 C=16 filter 2x2 stride 2x2 pad 0x0 -> 8x8
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.37 sec
+----------------------------------------------------------
+Test Passed.
+"maxpool_redmax_120_Verilator" end time: Oct 07 14:26 UTC
+"maxpool_redmax_120_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+270/292 Testing: maxpool_redmax_126_Verilator
+270/292 Test: maxpool_redmax_126_Verilator
+Command: "/work/processor_models/verilator/build/verilated_model" "/work/build_programs/build/benchmark_sources/generic_cpp/prog_maxpool_redmax_126_Verilator.txt" "1" "32" "4194304" "1" "1" "maxpool_redmax_126_Verilator" "128" "0"
+Directory: /../..
+"maxpool_redmax_126_Verilator" start time: Oct 07 14:26 UTC
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       95820
+Total Instructions: 22561
+
+Testcase:
+
+Max pool s8 (vredmax): N=1 H=16 W=16 C=32 filter 3x3 stride 3x3 pad 0x0 -> 5x5
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.36 sec
+----------------------------------------------------------
+Test Passed.
+"maxpool_redmax_126_Verilator" end time: Oct 07 14:26 UTC
+"maxpool_redmax_126_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+231/292 Testing: maxpool_muriscv_130_Verilator
+231/292 Test: maxpool_muriscv_130_Verilator
+Command: "/work/processor_models/verilator/build/verilated_model" "/work/build_programs/build/benchmark_sources/generic_cpp/prog_maxpool_muriscv_130_Verilator.txt" "1" "32" "4194304" "1" "1" "maxpool_muriscv_130_Verilator" "128" "0"
+Directory: /../..
+"maxpool_muriscv_130_Verilator" start time: Oct 07 14:26 UTC
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       39541
+Total Instructions: 8953
+
+Testcase:
+
+Max pool s8 (muRISCV-NN): N=1 H=16 W=16 C=64 filter 2x2 stride 2x2 pad 0x0 -> 8x8
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.36 sec
+----------------------------------------------------------
+Test Passed.
+"maxpool_muriscv_130_Verilator" end time: Oct 07 14:26 UTC
+"maxpool_muriscv_130_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+271/292 Testing: maxpool_redmax_127_Verilator
+271/292 Test: maxpool_redmax_127_Verilator
+Command: "/work/processor_models/verilator/build/verilated_model" "/work/build_programs/build/benchmark_sources/generic_cpp/prog_maxpool_redmax_127_Verilator.txt" "1" "32" "4194304" "1" "1" "maxpool_redmax_127_Verilator" "128" "0"
+Directory: /../..
+"maxpool_redmax_127_Verilator" start time: Oct 07 14:26 UTC
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       78281
+Total Instructions: 17572
+
+Testcase:
+
+Max pool s8 (vredmax): N=1 H=16 W=16 C=32 filter 4x4 stride 4x4 pad 0x0 -> 4x4
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.32 sec
+----------------------------------------------------------
+Test Passed.
+"maxpool_redmax_127_Verilator" end time: Oct 07 14:26 UTC
+"maxpool_redmax_127_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+274/292 Testing: maxpool_redmax_130_Verilator
+274/292 Test: maxpool_redmax_130_Verilator
+Command: "/work/processor_models/verilator/build/verilated_model" "/work/build_programs/build/benchmark_sources/generic_cpp/prog_maxpool_redmax_130_Verilator.txt" "1" "32" "4194304" "1" "1" "maxpool_redmax_130_Verilator" "128" "0"
+Directory: /../..
+"maxpool_redmax_130_Verilator" start time: Oct 07 14:26 UTC
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       351112
+Total Instructions: 88236
+
+Testcase:
+
+Max pool s8 (vredmax): N=1 H=16 W=16 C=64 filter 2x2 stride 2x2 pad 0x0 -> 8x8
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   1.27 sec
+----------------------------------------------------------
+Test Passed.
+"maxpool_redmax_130_Verilator" end time: Oct 07 14:26 UTC
+"maxpool_redmax_130_Verilator" time elapsed: 00:00:01
+----------------------------------------------------------
+
+226/292 Testing: maxpool_muriscv_125_Verilator
+226/292 Test: maxpool_muriscv_125_Verilator
+Command: "/work/processor_models/verilator/build/verilated_model" "/work/build_programs/build/benchmark_sources/generic_cpp/prog_maxpool_muriscv_125_Verilator.txt" "1" "32" "4194304" "1" "1" "maxpool_muriscv_125_Verilator" "128" "0"
+Directory: /../..
+"maxpool_muriscv_125_Verilator" start time: Oct 07 14:26 UTC
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       34707
+Total Instructions: 7929
+
+Testcase:
+
+Max pool s8 (muRISCV-NN): N=1 H=16 W=16 C=32 filter 2x2 stride 2x2 pad 0x0 -> 8x8
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.25 sec
+----------------------------------------------------------
+Test Passed.
+"maxpool_muriscv_125_Verilator" end time: Oct 07 14:26 UTC
+"maxpool_muriscv_125_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+277/292 Testing: maxpool_redmax_133_Verilator
+277/292 Test: maxpool_redmax_133_Verilator
+Command: "/work/processor_models/verilator/build/verilated_model" "/work/build_programs/build/benchmark_sources/generic_cpp/prog_maxpool_redmax_133_Verilator.txt" "1" "32" "4194304" "1" "1" "maxpool_redmax_133_Verilator" "128" "0"
+Directory: /../..
+"maxpool_redmax_133_Verilator" start time: Oct 07 14:26 UTC
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       72871
+Total Instructions: 14892
+
+Testcase:
+
+Max pool s8 (vredmax): N=1 H=16 W=16 C=64 filter 8x8 stride 8x8 pad 0x0 -> 2x2
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.30 sec
+----------------------------------------------------------
+Test Passed.
+"maxpool_redmax_133_Verilator" end time: Oct 07 14:26 UTC
+"maxpool_redmax_133_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+265/292 Testing: maxpool_redmax_121_Verilator
+265/292 Test: maxpool_redmax_121_Verilator
+Command: "/work/processor_models/verilator/build/verilated_model" "/work/build_programs/build/benchmark_sources/generic_cpp/prog_maxpool_redmax_121_Verilator.txt" "1" "32" "4194304" "1" "1" "maxpool_redmax_121_Verilator" "128" "0"
+Directory: /../..
+"maxpool_redmax_121_Verilator" start time: Oct 07 14:26 UTC
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       48630
+Total Instructions: 11737
+
+Testcase:
+
+Max pool s8 (vredmax): N=1 H=16 W=16 C=16 filter 3x3 stride 3x3 pad 0x0 -> 5x5
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.22 sec
+----------------------------------------------------------
+Test Passed.
+"maxpool_redmax_121_Verilator" end time: Oct 07 14:26 UTC
+"maxpool_redmax_121_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+259/292 Testing: maxpool_redmax_115_Verilator
+259/292 Test: maxpool_redmax_115_Verilator
+Command: "/work/processor_models/verilator/build/verilated_model" "/work/build_programs/build/benchmark_sources/generic_cpp/prog_maxpool_redmax_115_Verilator.txt" "1" "32" "4194304" "1" "1" "maxpool_redmax_115_Verilator" "128" "0"
+Directory: /../..
+"maxpool_redmax_115_Verilator" start time: Oct 07 14:26 UTC
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       46416
+Total Instructions: 12748
+
+Testcase:
+
+Max pool s8 (vredmax): N=1 H=16 W=16 C=8 filter 2x2 stride 2x2 pad 0x0 -> 8x8
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.23 sec
+----------------------------------------------------------
+Test Passed.
+"maxpool_redmax_115_Verilator" end time: Oct 07 14:26 UTC
+"maxpool_redmax_115_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+232/292 Testing: maxpool_muriscv_131_Verilator
+232/292 Test: maxpool_muriscv_131_Verilator
+Command: "/work/processor_models/verilator/build/verilated_model" "/work/build_programs/build/benchmark_sources/generic_cpp/prog_maxpool_muriscv_131_Verilator.txt" "1" "32" "4194304" "1" "1" "maxpool_muriscv_131_Verilator" "128" "0"
+Directory: /../..
+"maxpool_muriscv_131_Verilator" start time: Oct 07 14:26 UTC
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       31432
+Total Instructions: 5953
+
+Testcase:
+
+Max pool s8 (muRISCV-NN): N=1 H=16 W=16 C=64 filter 3x3 stride 3x3 pad 0x0 -> 5x5
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.22 sec
+----------------------------------------------------------
+Test Passed.
+"maxpool_muriscv_131_Verilator" end time: Oct 07 14:26 UTC
+"maxpool_muriscv_131_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+233/292 Testing: maxpool_muriscv_132_Verilator
+233/292 Test: maxpool_muriscv_132_Verilator
+Command: "/work/processor_models/verilator/build/verilated_model" "/work/build_programs/build/benchmark_sources/generic_cpp/prog_maxpool_muriscv_132_Verilator.txt" "1" "32" "4194304" "1" "1" "maxpool_muriscv_132_Verilator" "128" "0"
+Directory: /../..
+"maxpool_muriscv_132_Verilator" start time: Oct 07 14:26 UTC
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       34167
+Total Instructions: 5861
+
+Testcase:
+
+Max pool s8 (muRISCV-NN): N=1 H=16 W=16 C=64 filter 4x4 stride 4x4 pad 0x0 -> 4x4
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.23 sec
+----------------------------------------------------------
+Test Passed.
+"maxpool_muriscv_132_Verilator" end time: Oct 07 14:26 UTC
+"maxpool_muriscv_132_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+199/292 Testing: maxpool_muriscv_0_Verilator
+199/292 Test: maxpool_muriscv_0_Verilator
+Command: "/work/processor_models/verilator/build/verilated_model" "/work/build_programs/build/benchmark_sources/generic_cpp/prog_maxpool_muriscv_0_Verilator.txt" "1" "32" "4194304" "1" "1" "maxpool_muriscv_0_Verilator" "128" "0"
+Directory: /../..
+"maxpool_muriscv_0_Verilator" start time: Oct 07 14:26 UTC
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       48188
+Total Instructions: 7796
+
+Testcase:
+
+Max pool s8 (muRISCV-NN): N=2 H=12 W=22 C=8 filter 5x6 stride 5x9 pad 1x1 -> 3x3
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.21 sec
+----------------------------------------------------------
+Test Passed.
+"maxpool_muriscv_0_Verilator" end time: Oct 07 14:26 UTC
+"maxpool_muriscv_0_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+221/292 Testing: maxpool_muriscv_120_Verilator
+221/292 Test: maxpool_muriscv_120_Verilator
+Command: "/work/processor_models/verilator/build/verilated_model" "/work/build_programs/build/benchmark_sources/generic_cpp/prog_maxpool_muriscv_120_Verilator.txt" "1" "32" "4194304" "1" "1" "maxpool_muriscv_120_Verilator" "128" "0"
+Directory: /../..
+"maxpool_muriscv_120_Verilator" start time: Oct 07 14:26 UTC
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       32196
+Total Instructions: 7417
+
+Testcase:
+
+Max pool s8 (muRISCV-NN): N=1 H=16 W=16 C=16 filter 2x2 stride 2x2 pad 0x0 -> 8x8
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.21 sec
+----------------------------------------------------------
+Test Passed.
+"maxpool_muriscv_120_Verilator" end time: Oct 07 14:26 UTC
+"maxpool_muriscv_120_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+228/292 Testing: maxpool_muriscv_127_Verilator
+228/292 Test: maxpool_muriscv_127_Verilator
+Command: "/work/processor_models/verilator/build/verilated_model" "/work/build_programs/build/benchmark_sources/generic_cpp/prog_maxpool_muriscv_127_Verilator.txt" "1" "32" "4194304" "1" "1" "maxpool_muriscv_127_Verilator" "128" "0"
+Directory: /../..
+"maxpool_muriscv_127_Verilator" start time: Oct 07 14:26 UTC
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       32957
+Total Instructions: 5605
+
+Testcase:
+
+Max pool s8 (muRISCV-NN): N=1 H=16 W=16 C=32 filter 4x4 stride 4x4 pad 0x0 -> 4x4
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.20 sec
+----------------------------------------------------------
+Test Passed.
+"maxpool_muriscv_127_Verilator" end time: Oct 07 14:26 UTC
+"maxpool_muriscv_127_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+266/292 Testing: maxpool_redmax_122_Verilator
+266/292 Test: maxpool_redmax_122_Verilator
+Command: "/work/processor_models/verilator/build/verilated_model" "/work/build_programs/build/benchmark_sources/generic_cpp/prog_maxpool_redmax_122_Verilator.txt" "1" "32" "4194304" "1" "1" "maxpool_redmax_122_Verilator" "128" "0"
+Directory: /../..
+"maxpool_redmax_122_Verilator" start time: Oct 07 14:26 UTC
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       39621
+Total Instructions: 9108
+
+Testcase:
+
+Max pool s8 (vredmax): N=1 H=16 W=16 C=16 filter 4x4 stride 4x4 pad 0x0 -> 4x4
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.21 sec
+----------------------------------------------------------
+Test Passed.
+"maxpool_redmax_122_Verilator" end time: Oct 07 14:26 UTC
+"maxpool_redmax_122_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+223/292 Testing: maxpool_muriscv_122_Verilator
+223/292 Test: maxpool_muriscv_122_Verilator
+Command: "/work/processor_models/verilator/build/verilated_model" "/work/build_programs/build/benchmark_sources/generic_cpp/prog_maxpool_muriscv_122_Verilator.txt" "1" "32" "4194304" "1" "1" "maxpool_muriscv_122_Verilator" "128" "0"
+Directory: /../..
+"maxpool_muriscv_122_Verilator" start time: Oct 07 14:26 UTC
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       32330
+Total Instructions: 5477
+
+Testcase:
+
+Max pool s8 (muRISCV-NN): N=1 H=16 W=16 C=16 filter 4x4 stride 4x4 pad 0x0 -> 4x4
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.17 sec
+----------------------------------------------------------
+Test Passed.
+"maxpool_muriscv_122_Verilator" end time: Oct 07 14:26 UTC
+"maxpool_muriscv_122_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+216/292 Testing: maxpool_muriscv_115_Verilator
+216/292 Test: maxpool_muriscv_115_Verilator
+Command: "/work/processor_models/verilator/build/verilated_model" "/work/build_programs/build/benchmark_sources/generic_cpp/prog_maxpool_muriscv_115_Verilator.txt" "1" "32" "4194304" "1" "1" "maxpool_muriscv_115_Verilator" "128" "0"
+Directory: /../..
+"maxpool_muriscv_115_Verilator" start time: Oct 07 14:26 UTC
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       31676
+Total Instructions: 7385
+
+Testcase:
+
+Max pool s8 (muRISCV-NN): N=1 H=16 W=16 C=8 filter 2x2 stride 2x2 pad 0x0 -> 8x8
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.17 sec
+----------------------------------------------------------
+Test Passed.
+"maxpool_muriscv_115_Verilator" end time: Oct 07 14:26 UTC
+"maxpool_muriscv_115_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+211/292 Testing: maxpool_muriscv_110_Verilator
+211/292 Test: maxpool_muriscv_110_Verilator
+Command: "/work/processor_models/verilator/build/verilated_model" "/work/build_programs/build/benchmark_sources/generic_cpp/prog_maxpool_muriscv_110_Verilator.txt" "1" "32" "4194304" "1" "1" "maxpool_muriscv_110_Verilator" "128" "0"
+Directory: /../..
+"maxpool_muriscv_110_Verilator" start time: Oct 07 14:26 UTC
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       31416
+Total Instructions: 7369
+
+Testcase:
+
+Max pool s8 (muRISCV-NN): N=1 H=16 W=16 C=4 filter 2x2 stride 2x2 pad 0x0 -> 8x8
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.17 sec
+----------------------------------------------------------
+Test Passed.
+"maxpool_muriscv_110_Verilator" end time: Oct 07 14:26 UTC
+"maxpool_muriscv_110_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+272/292 Testing: maxpool_redmax_128_Verilator
+272/292 Test: maxpool_redmax_128_Verilator
+Command: "/work/processor_models/verilator/build/verilated_model" "/work/build_programs/build/benchmark_sources/generic_cpp/prog_maxpool_redmax_128_Verilator.txt" "1" "32" "4194304" "1" "1" "maxpool_redmax_128_Verilator" "128" "0"
+Directory: /../..
+"maxpool_redmax_128_Verilator" start time: Oct 07 14:26 UTC
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       36645
+Total Instructions: 7588
+
+Testcase:
+
+Max pool s8 (vredmax): N=1 H=16 W=16 C=32 filter 8x8 stride 8x8 pad 0x0 -> 2x2
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.19 sec
+----------------------------------------------------------
+Test Passed.
+"maxpool_redmax_128_Verilator" end time: Oct 07 14:26 UTC
+"maxpool_redmax_128_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+212/292 Testing: maxpool_muriscv_111_Verilator
+212/292 Test: maxpool_muriscv_111_Verilator
+Command: "/work/processor_models/verilator/build/verilated_model" "/work/build_programs/build/benchmark_sources/generic_cpp/prog_maxpool_muriscv_111_Verilator.txt" "1" "32" "4194304" "1" "1" "maxpool_muriscv_111_Verilator" "128" "0"
+Directory: /../..
+"maxpool_muriscv_111_Verilator" start time: Oct 07 14:26 UTC
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       28221
+Total Instructions: 5332
+
+Testcase:
+
+Max pool s8 (muRISCV-NN): N=1 H=16 W=16 C=4 filter 3x3 stride 3x3 pad 0x0 -> 5x5
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.16 sec
+----------------------------------------------------------
+Test Passed.
+"maxpool_muriscv_111_Verilator" end time: Oct 07 14:26 UTC
+"maxpool_muriscv_111_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+234/292 Testing: maxpool_muriscv_133_Verilator
+234/292 Test: maxpool_muriscv_133_Verilator
+Command: "/work/processor_models/verilator/build/verilated_model" "/work/build_programs/build/benchmark_sources/generic_cpp/prog_maxpool_muriscv_133_Verilator.txt" "1" "32" "4194304" "1" "1" "maxpool_muriscv_133_Verilator" "128" "0"
+Directory: /../..
+"maxpool_muriscv_133_Verilator" start time: Oct 07 14:26 UTC
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       32459
+Total Instructions: 4855
+
+Testcase:
+
+Max pool s8 (muRISCV-NN): N=1 H=16 W=16 C=64 filter 8x8 stride 8x8 pad 0x0 -> 2x2
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.19 sec
+----------------------------------------------------------
+Test Passed.
+"maxpool_muriscv_133_Verilator" end time: Oct 07 14:26 UTC
+"maxpool_muriscv_133_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+278/292 Testing: maxpool_redmax_134_Verilator
+278/292 Test: maxpool_redmax_134_Verilator
+Command: "/work/processor_models/verilator/build/verilated_model" "/work/build_programs/build/benchmark_sources/generic_cpp/prog_maxpool_redmax_134_Verilator.txt" "1" "32" "4194304" "1" "1" "maxpool_redmax_134_Verilator" "128" "0"
+Directory: /../..
+"maxpool_redmax_134_Verilator" start time: Oct 07 14:26 UTC
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       35336
+Total Instructions: 6907
+
+Testcase:
+
+Max pool s8 (vredmax): N=1 H=16 W=16 C=64 filter 16x16 stride 16x16 pad 0x0 -> 1x1
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.19 sec
+----------------------------------------------------------
+Test Passed.
+"maxpool_redmax_134_Verilator" end time: Oct 07 14:26 UTC
+"maxpool_redmax_134_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+227/292 Testing: maxpool_muriscv_126_Verilator
+227/292 Test: maxpool_muriscv_126_Verilator
+Command: "/work/processor_models/verilator/build/verilated_model" "/work/build_programs/build/benchmark_sources/generic_cpp/prog_maxpool_muriscv_126_Verilator.txt" "1" "32" "4194304" "1" "1" "maxpool_muriscv_126_Verilator" "128" "0"
+Directory: /../..
+"maxpool_muriscv_126_Verilator" start time: Oct 07 14:26 UTC
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       29575
+Total Instructions: 5555
+
+Testcase:
+
+Max pool s8 (muRISCV-NN): N=1 H=16 W=16 C=32 filter 3x3 stride 3x3 pad 0x0 -> 5x5
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.21 sec
+----------------------------------------------------------
+Test Passed.
+"maxpool_muriscv_126_Verilator" end time: Oct 07 14:26 UTC
+"maxpool_muriscv_126_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+209/292 Testing: maxpool_muriscv_108_Verilator
+209/292 Test: maxpool_muriscv_108_Verilator
+Command: "/work/processor_models/verilator/build/verilated_model" "/work/build_programs/build/benchmark_sources/generic_cpp/prog_maxpool_muriscv_108_Verilator.txt" "1" "32" "4194304" "1" "1" "maxpool_muriscv_108_Verilator" "128" "0"
+Directory: /../..
+"maxpool_muriscv_108_Verilator" start time: Oct 07 14:26 UTC
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       32064
+Total Instructions: 4763
+
+Testcase:
+
+Max pool s8 (muRISCV-NN): N=1 H=16 W=16 C=2 filter 8x8 stride 8x8 pad 0x0 -> 2x2
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.17 sec
+----------------------------------------------------------
+Test Passed.
+"maxpool_muriscv_108_Verilator" end time: Oct 07 14:26 UTC
+"maxpool_muriscv_108_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+254/292 Testing: maxpool_redmax_110_Verilator
+254/292 Test: maxpool_redmax_110_Verilator
+Command: "/work/processor_models/verilator/build/verilated_model" "/work/build_programs/build/benchmark_sources/generic_cpp/prog_maxpool_redmax_110_Verilator.txt" "1" "32" "4194304" "1" "1" "maxpool_redmax_110_Verilator" "128" "0"
+Directory: /../..
+"maxpool_redmax_110_Verilator" start time: Oct 07 14:26 UTC
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       24652
+Total Instructions: 7356
+
+Testcase:
+
+Max pool s8 (vredmax): N=1 H=16 W=16 C=4 filter 2x2 stride 2x2 pad 0x0 -> 8x8
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.18 sec
+----------------------------------------------------------
+Test Passed.
+"maxpool_redmax_110_Verilator" end time: Oct 07 14:26 UTC
+"maxpool_redmax_110_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+222/292 Testing: maxpool_muriscv_121_Verilator
+222/292 Test: maxpool_muriscv_121_Verilator
+Command: "/work/processor_models/verilator/build/verilated_model" "/work/build_programs/build/benchmark_sources/generic_cpp/prog_maxpool_muriscv_121_Verilator.txt" "1" "32" "4194304" "1" "1" "maxpool_muriscv_121_Verilator" "128" "0"
+Directory: /../..
+"maxpool_muriscv_121_Verilator" start time: Oct 07 14:26 UTC
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       28611
+Total Instructions: 5356
+
+Testcase:
+
+Max pool s8 (muRISCV-NN): N=1 H=16 W=16 C=16 filter 3x3 stride 3x3 pad 0x0 -> 5x5
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.19 sec
+----------------------------------------------------------
+Test Passed.
+"maxpool_muriscv_121_Verilator" end time: Oct 07 14:26 UTC
+"maxpool_muriscv_121_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+260/292 Testing: maxpool_redmax_116_Verilator
+260/292 Test: maxpool_redmax_116_Verilator
+Command: "/work/processor_models/verilator/build/verilated_model" "/work/build_programs/build/benchmark_sources/generic_cpp/prog_maxpool_redmax_116_Verilator.txt" "1" "32" "4194304" "1" "1" "maxpool_redmax_116_Verilator" "128" "0"
+Directory: /../..
+"maxpool_redmax_116_Verilator" start time: Oct 07 14:26 UTC
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       24970
+Total Instructions: 6321
+
+Testcase:
+
+Max pool s8 (vredmax): N=1 H=16 W=16 C=8 filter 3x3 stride 3x3 pad 0x0 -> 5x5
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.18 sec
+----------------------------------------------------------
+Test Passed.
+"maxpool_redmax_116_Verilator" end time: Oct 07 14:26 UTC
+"maxpool_redmax_116_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+225/292 Testing: maxpool_muriscv_124_Verilator
+225/292 Test: maxpool_muriscv_124_Verilator
+Command: "/work/processor_models/verilator/build/verilated_model" "/work/build_programs/build/benchmark_sources/generic_cpp/prog_maxpool_muriscv_124_Verilator.txt" "1" "32" "4194304" "1" "1" "maxpool_muriscv_124_Verilator" "128" "0"
+Directory: /../..
+"maxpool_muriscv_124_Verilator" start time: Oct 07 14:26 UTC
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       31846
+Total Instructions: 4470
+
+Testcase:
+
+Max pool s8 (muRISCV-NN): N=1 H=16 W=16 C=16 filter 16x16 stride 16x16 pad 0x0 -> 1x1
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.18 sec
+----------------------------------------------------------
+Test Passed.
+"maxpool_muriscv_124_Verilator" end time: Oct 07 14:26 UTC
+"maxpool_muriscv_124_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+208/292 Testing: maxpool_muriscv_107_Verilator
+208/292 Test: maxpool_muriscv_107_Verilator
+Command: "/work/processor_models/verilator/build/verilated_model" "/work/build_programs/build/benchmark_sources/generic_cpp/prog_maxpool_muriscv_107_Verilator.txt" "1" "32" "4194304" "1" "1" "maxpool_muriscv_107_Verilator" "128" "0"
+Directory: /../..
+"maxpool_muriscv_107_Verilator" start time: Oct 07 14:26 UTC
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       32200
+Total Instructions: 5469
+
+Testcase:
+
+Max pool s8 (muRISCV-NN): N=1 H=16 W=16 C=2 filter 4x4 stride 4x4 pad 0x0 -> 4x4
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.19 sec
+----------------------------------------------------------
+Test Passed.
+"maxpool_muriscv_107_Verilator" end time: Oct 07 14:26 UTC
+"maxpool_muriscv_107_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+229/292 Testing: maxpool_muriscv_128_Verilator
+229/292 Test: maxpool_muriscv_128_Verilator
+Command: "/work/processor_models/verilator/build/verilated_model" "/work/build_programs/build/benchmark_sources/generic_cpp/prog_maxpool_muriscv_128_Verilator.txt" "1" "32" "4194304" "1" "1" "maxpool_muriscv_128_Verilator" "128" "0"
+Directory: /../..
+"maxpool_muriscv_128_Verilator" start time: Oct 07 14:26 UTC
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       32155
+Total Instructions: 4791
+
+Testcase:
+
+Max pool s8 (muRISCV-NN): N=1 H=16 W=16 C=32 filter 8x8 stride 8x8 pad 0x0 -> 2x2
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.20 sec
+----------------------------------------------------------
+Test Passed.
+"maxpool_muriscv_128_Verilator" end time: Oct 07 14:26 UTC
+"maxpool_muriscv_128_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+206/292 Testing: maxpool_muriscv_105_Verilator
+206/292 Test: maxpool_muriscv_105_Verilator
+Command: "/work/processor_models/verilator/build/verilated_model" "/work/build_programs/build/benchmark_sources/generic_cpp/prog_maxpool_muriscv_105_Verilator.txt" "1" "32" "4194304" "1" "1" "maxpool_muriscv_105_Verilator" "128" "0"
+Directory: /../..
+"maxpool_muriscv_105_Verilator" start time: Oct 07 14:26 UTC
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       31286
+Total Instructions: 7361
+
+Testcase:
+
+Max pool s8 (muRISCV-NN): N=1 H=16 W=16 C=2 filter 2x2 stride 2x2 pad 0x0 -> 8x8
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.22 sec
+----------------------------------------------------------
+Test Passed.
+"maxpool_muriscv_105_Verilator" end time: Oct 07 14:26 UTC
+"maxpool_muriscv_105_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+235/292 Testing: maxpool_muriscv_134_Verilator
+235/292 Test: maxpool_muriscv_134_Verilator
+Command: "/work/processor_models/verilator/build/verilated_model" "/work/build_programs/build/benchmark_sources/generic_cpp/prog_maxpool_muriscv_134_Verilator.txt" "1" "32" "4194304" "1" "1" "maxpool_muriscv_134_Verilator" "128" "0"
+Directory: /../..
+"maxpool_muriscv_134_Verilator" start time: Oct 07 14:26 UTC
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       31913
+Total Instructions: 4491
+
+Testcase:
+
+Max pool s8 (muRISCV-NN): N=1 H=16 W=16 C=64 filter 16x16 stride 16x16 pad 0x0 -> 1x1
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.20 sec
+----------------------------------------------------------
+Test Passed.
+"maxpool_muriscv_134_Verilator" end time: Oct 07 14:26 UTC
+"maxpool_muriscv_134_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+213/292 Testing: maxpool_muriscv_112_Verilator
+213/292 Test: maxpool_muriscv_112_Verilator
+Command: "/work/processor_models/verilator/build/verilated_model" "/work/build_programs/build/benchmark_sources/generic_cpp/prog_maxpool_muriscv_112_Verilator.txt" "1" "32" "4194304" "1" "1" "maxpool_muriscv_112_Verilator" "128" "0"
+Directory: /../..
+"maxpool_muriscv_112_Verilator" start time: Oct 07 14:26 UTC
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       32200
+Total Instructions: 5469
+
+Testcase:
+
+Max pool s8 (muRISCV-NN): N=1 H=16 W=16 C=4 filter 4x4 stride 4x4 pad 0x0 -> 4x4
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.18 sec
+----------------------------------------------------------
+Test Passed.
+"maxpool_muriscv_112_Verilator" end time: Oct 07 14:26 UTC
+"maxpool_muriscv_112_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+214/292 Testing: maxpool_muriscv_113_Verilator
+214/292 Test: maxpool_muriscv_113_Verilator
+Command: "/work/processor_models/verilator/build/verilated_model" "/work/build_programs/build/benchmark_sources/generic_cpp/prog_maxpool_muriscv_113_Verilator.txt" "1" "32" "4194304" "1" "1" "maxpool_muriscv_113_Verilator" "128" "0"
+Directory: /../..
+"maxpool_muriscv_113_Verilator" start time: Oct 07 14:26 UTC
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       32064
+Total Instructions: 4763
+
+Testcase:
+
+Max pool s8 (muRISCV-NN): N=1 H=16 W=16 C=4 filter 8x8 stride 8x8 pad 0x0 -> 2x2
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.18 sec
+----------------------------------------------------------
+Test Passed.
+"maxpool_muriscv_113_Verilator" end time: Oct 07 14:26 UTC
+"maxpool_muriscv_113_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+230/292 Testing: maxpool_muriscv_129_Verilator
+230/292 Test: maxpool_muriscv_129_Verilator
+Command: "/work/processor_models/verilator/build/verilated_model" "/work/build_programs/build/benchmark_sources/generic_cpp/prog_maxpool_muriscv_129_Verilator.txt" "1" "32" "4194304" "1" "1" "maxpool_muriscv_129_Verilator" "128" "0"
+Directory: /../..
+"maxpool_muriscv_129_Verilator" start time: Oct 07 14:26 UTC
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       31868
+Total Instructions: 4477
+
+Testcase:
+
+Max pool s8 (muRISCV-NN): N=1 H=16 W=16 C=32 filter 16x16 stride 16x16 pad 0x0 -> 1x1
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.19 sec
+----------------------------------------------------------
+Test Passed.
+"maxpool_muriscv_129_Verilator" end time: Oct 07 14:26 UTC
+"maxpool_muriscv_129_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+210/292 Testing: maxpool_muriscv_109_Verilator
+210/292 Test: maxpool_muriscv_109_Verilator
+Command: "/work/processor_models/verilator/build/verilated_model" "/work/build_programs/build/benchmark_sources/generic_cpp/prog_maxpool_muriscv_109_Verilator.txt" "1" "32" "4194304" "1" "1" "maxpool_muriscv_109_Verilator" "128" "0"
+Directory: /../..
+"maxpool_muriscv_109_Verilator" start time: Oct 07 14:26 UTC
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       31846
+Total Instructions: 4470
+
+Testcase:
+
+Max pool s8 (muRISCV-NN): N=1 H=16 W=16 C=2 filter 16x16 stride 16x16 pad 0x0 -> 1x1
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.18 sec
+----------------------------------------------------------
+Test Passed.
+"maxpool_muriscv_109_Verilator" end time: Oct 07 14:26 UTC
+"maxpool_muriscv_109_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+219/292 Testing: maxpool_muriscv_118_Verilator
+219/292 Test: maxpool_muriscv_118_Verilator
+Command: "/work/processor_models/verilator/build/verilated_model" "/work/build_programs/build/benchmark_sources/generic_cpp/prog_maxpool_muriscv_118_Verilator.txt" "1" "32" "4194304" "1" "1" "maxpool_muriscv_118_Verilator" "128" "0"
+Directory: /../..
+"maxpool_muriscv_118_Verilator" start time: Oct 07 14:26 UTC
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       32064
+Total Instructions: 4763
+
+Testcase:
+
+Max pool s8 (muRISCV-NN): N=1 H=16 W=16 C=8 filter 8x8 stride 8x8 pad 0x0 -> 2x2
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.20 sec
+----------------------------------------------------------
+Test Passed.
+"maxpool_muriscv_118_Verilator" end time: Oct 07 14:26 UTC
+"maxpool_muriscv_118_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+205/292 Testing: maxpool_muriscv_104_Verilator
+205/292 Test: maxpool_muriscv_104_Verilator
+Command: "/work/processor_models/verilator/build/verilated_model" "/work/build_programs/build/benchmark_sources/generic_cpp/prog_maxpool_muriscv_104_Verilator.txt" "1" "32" "4194304" "1" "1" "maxpool_muriscv_104_Verilator" "128" "0"
+Directory: /../..
+"maxpool_muriscv_104_Verilator" start time: Oct 07 14:26 UTC
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       31846
+Total Instructions: 4470
+
+Testcase:
+
+Max pool s8 (muRISCV-NN): N=1 H=16 W=16 C=1 filter 16x16 stride 16x16 pad 0x0 -> 1x1
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.19 sec
+----------------------------------------------------------
+Test Passed.
+"maxpool_muriscv_104_Verilator" end time: Oct 07 14:26 UTC
+"maxpool_muriscv_104_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+218/292 Testing: maxpool_muriscv_117_Verilator
+218/292 Test: maxpool_muriscv_117_Verilator
+Command: "/work/processor_models/verilator/build/verilated_model" "/work/build_programs/build/benchmark_sources/generic_cpp/prog_maxpool_muriscv_117_Verilator.txt" "1" "32" "4194304" "1" "1" "maxpool_muriscv_117_Verilator" "128" "0"
+Directory: /../..
+"maxpool_muriscv_117_Verilator" start time: Oct 07 14:26 UTC
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       32200
+Total Instructions: 5469
+
+Testcase:
+
+Max pool s8 (muRISCV-NN): N=1 H=16 W=16 C=8 filter 4x4 stride 4x4 pad 0x0 -> 4x4
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.19 sec
+----------------------------------------------------------
+Test Passed.
+"maxpool_muriscv_117_Verilator" end time: Oct 07 14:26 UTC
+"maxpool_muriscv_117_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+261/292 Testing: maxpool_redmax_117_Verilator
+261/292 Test: maxpool_redmax_117_Verilator
+Command: "/work/processor_models/verilator/build/verilated_model" "/work/build_programs/build/benchmark_sources/generic_cpp/prog_maxpool_redmax_117_Verilator.txt" "1" "32" "4194304" "1" "1" "maxpool_redmax_117_Verilator" "128" "0"
+Directory: /../..
+"maxpool_redmax_117_Verilator" start time: Oct 07 14:26 UTC
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       20291
+Total Instructions: 4876
+
+Testcase:
+
+Max pool s8 (vredmax): N=1 H=16 W=16 C=8 filter 4x4 stride 4x4 pad 0x0 -> 4x4
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.16 sec
+----------------------------------------------------------
+Test Passed.
+"maxpool_redmax_117_Verilator" end time: Oct 07 14:26 UTC
+"maxpool_redmax_117_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+204/292 Testing: maxpool_muriscv_103_Verilator
+204/292 Test: maxpool_muriscv_103_Verilator
+Command: "/work/processor_models/verilator/build/verilated_model" "/work/build_programs/build/benchmark_sources/generic_cpp/prog_maxpool_muriscv_103_Verilator.txt" "1" "32" "4194304" "1" "1" "maxpool_muriscv_103_Verilator" "128" "0"
+Directory: /../..
+"maxpool_muriscv_103_Verilator" start time: Oct 07 14:26 UTC
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       32064
+Total Instructions: 4763
+
+Testcase:
+
+Max pool s8 (muRISCV-NN): N=1 H=16 W=16 C=1 filter 8x8 stride 8x8 pad 0x0 -> 2x2
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.20 sec
+----------------------------------------------------------
+Test Passed.
+"maxpool_muriscv_103_Verilator" end time: Oct 07 14:26 UTC
+"maxpool_muriscv_103_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+217/292 Testing: maxpool_muriscv_116_Verilator
+217/292 Test: maxpool_muriscv_116_Verilator
+Command: "/work/processor_models/verilator/build/verilated_model" "/work/build_programs/build/benchmark_sources/generic_cpp/prog_maxpool_muriscv_116_Verilator.txt" "1" "32" "4194304" "1" "1" "maxpool_muriscv_116_Verilator" "128" "0"
+Directory: /../..
+"maxpool_muriscv_116_Verilator" start time: Oct 07 14:26 UTC
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       28351
+Total Instructions: 5340
+
+Testcase:
+
+Max pool s8 (muRISCV-NN): N=1 H=16 W=16 C=8 filter 3x3 stride 3x3 pad 0x0 -> 5x5
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.19 sec
+----------------------------------------------------------
+Test Passed.
+"maxpool_muriscv_116_Verilator" end time: Oct 07 14:26 UTC
+"maxpool_muriscv_116_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+203/292 Testing: maxpool_muriscv_102_Verilator
+203/292 Test: maxpool_muriscv_102_Verilator
+Command: "/work/processor_models/verilator/build/verilated_model" "/work/build_programs/build/benchmark_sources/generic_cpp/prog_maxpool_muriscv_102_Verilator.txt" "1" "32" "4194304" "1" "1" "maxpool_muriscv_102_Verilator" "128" "0"
+Directory: /../..
+"maxpool_muriscv_102_Verilator" start time: Oct 07 14:26 UTC
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       32200
+Total Instructions: 5469
+
+Testcase:
+
+Max pool s8 (muRISCV-NN): N=1 H=16 W=16 C=1 filter 4x4 stride 4x4 pad 0x0 -> 4x4
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.21 sec
+----------------------------------------------------------
+Test Passed.
+"maxpool_muriscv_102_Verilator" end time: Oct 07 14:26 UTC
+"maxpool_muriscv_102_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+202/292 Testing: maxpool_muriscv_101_Verilator
+202/292 Test: maxpool_muriscv_101_Verilator
+Command: "/work/processor_models/verilator/build/verilated_model" "/work/build_programs/build/benchmark_sources/generic_cpp/prog_maxpool_muriscv_101_Verilator.txt" "1" "32" "4194304" "1" "1" "maxpool_muriscv_101_Verilator" "128" "0"
+Directory: /../..
+"maxpool_muriscv_101_Verilator" start time: Oct 07 14:26 UTC
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       28221
+Total Instructions: 5332
+
+Testcase:
+
+Max pool s8 (muRISCV-NN): N=1 H=16 W=16 C=1 filter 3x3 stride 3x3 pad 0x0 -> 5x5
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.17 sec
+----------------------------------------------------------
+Test Passed.
+"maxpool_muriscv_101_Verilator" end time: Oct 07 14:26 UTC
+"maxpool_muriscv_101_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+220/292 Testing: maxpool_muriscv_119_Verilator
+220/292 Test: maxpool_muriscv_119_Verilator
+Command: "/work/processor_models/verilator/build/verilated_model" "/work/build_programs/build/benchmark_sources/generic_cpp/prog_maxpool_muriscv_119_Verilator.txt" "1" "32" "4194304" "1" "1" "maxpool_muriscv_119_Verilator" "128" "0"
+Directory: /../..
+"maxpool_muriscv_119_Verilator" start time: Oct 07 14:26 UTC
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       31846
+Total Instructions: 4470
+
+Testcase:
+
+Max pool s8 (muRISCV-NN): N=1 H=16 W=16 C=8 filter 16x16 stride 16x16 pad 0x0 -> 1x1
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.18 sec
+----------------------------------------------------------
+Test Passed.
+"maxpool_muriscv_119_Verilator" end time: Oct 07 14:26 UTC
+"maxpool_muriscv_119_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+207/292 Testing: maxpool_muriscv_106_Verilator
+207/292 Test: maxpool_muriscv_106_Verilator
+Command: "/work/processor_models/verilator/build/verilated_model" "/work/build_programs/build/benchmark_sources/generic_cpp/prog_maxpool_muriscv_106_Verilator.txt" "1" "32" "4194304" "1" "1" "maxpool_muriscv_106_Verilator" "128" "0"
+Directory: /../..
+"maxpool_muriscv_106_Verilator" start time: Oct 07 14:26 UTC
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       28221
+Total Instructions: 5332
+
+Testcase:
+
+Max pool s8 (muRISCV-NN): N=1 H=16 W=16 C=2 filter 3x3 stride 3x3 pad 0x0 -> 5x5
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.16 sec
+----------------------------------------------------------
+Test Passed.
+"maxpool_muriscv_106_Verilator" end time: Oct 07 14:26 UTC
+"maxpool_muriscv_106_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+224/292 Testing: maxpool_muriscv_123_Verilator
+224/292 Test: maxpool_muriscv_123_Verilator
+Command: "/work/processor_models/verilator/build/verilated_model" "/work/build_programs/build/benchmark_sources/generic_cpp/prog_maxpool_muriscv_123_Verilator.txt" "1" "32" "4194304" "1" "1" "maxpool_muriscv_123_Verilator" "128" "0"
+Directory: /../..
+"maxpool_muriscv_123_Verilator" start time: Oct 07 14:26 UTC
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       32064
+Total Instructions: 4763
+
+Testcase:
+
+Max pool s8 (muRISCV-NN): N=1 H=16 W=16 C=16 filter 8x8 stride 8x8 pad 0x0 -> 2x2
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.17 sec
+----------------------------------------------------------
+Test Passed.
+"maxpool_muriscv_123_Verilator" end time: Oct 07 14:26 UTC
+"maxpool_muriscv_123_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+201/292 Testing: maxpool_muriscv_100_Verilator
+201/292 Test: maxpool_muriscv_100_Verilator
+Command: "/work/processor_models/verilator/build/verilated_model" "/work/build_programs/build/benchmark_sources/generic_cpp/prog_maxpool_muriscv_100_Verilator.txt" "1" "32" "4194304" "1" "1" "maxpool_muriscv_100_Verilator" "128" "0"
+Directory: /../..
+"maxpool_muriscv_100_Verilator" start time: Oct 07 14:26 UTC
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       31286
+Total Instructions: 7361
+
+Testcase:
+
+Max pool s8 (muRISCV-NN): N=1 H=16 W=16 C=1 filter 2x2 stride 2x2 pad 0x0 -> 8x8
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.18 sec
+----------------------------------------------------------
+Test Passed.
+"maxpool_muriscv_100_Verilator" end time: Oct 07 14:26 UTC
+"maxpool_muriscv_100_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+215/292 Testing: maxpool_muriscv_114_Verilator
+215/292 Test: maxpool_muriscv_114_Verilator
+Command: "/work/processor_models/verilator/build/verilated_model" "/work/build_programs/build/benchmark_sources/generic_cpp/prog_maxpool_muriscv_114_Verilator.txt" "1" "32" "4194304" "1" "1" "maxpool_muriscv_114_Verilator" "128" "0"
+Directory: /../..
+"maxpool_muriscv_114_Verilator" start time: Oct 07 14:26 UTC
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       31846
+Total Instructions: 4470
+
+Testcase:
+
+Max pool s8 (muRISCV-NN): N=1 H=16 W=16 C=4 filter 16x16 stride 16x16 pad 0x0 -> 1x1
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.16 sec
+----------------------------------------------------------
+Test Passed.
+"maxpool_muriscv_114_Verilator" end time: Oct 07 14:26 UTC
+"maxpool_muriscv_114_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+273/292 Testing: maxpool_redmax_129_Verilator
+273/292 Test: maxpool_redmax_129_Verilator
+Command: "/work/processor_models/verilator/build/verilated_model" "/work/build_programs/build/benchmark_sources/generic_cpp/prog_maxpool_redmax_129_Verilator.txt" "1" "32" "4194304" "1" "1" "maxpool_redmax_129_Verilator" "128" "0"
+Directory: /../..
+"maxpool_redmax_129_Verilator" start time: Oct 07 14:26 UTC
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       17864
+Total Instructions: 3547
+
+Testcase:
+
+Max pool s8 (vredmax): N=1 H=16 W=16 C=32 filter 16x16 stride 16x16 pad 0x0 -> 1x1
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.13 sec
+----------------------------------------------------------
+Test Passed.
+"maxpool_redmax_129_Verilator" end time: Oct 07 14:26 UTC
+"maxpool_redmax_129_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+242/292 Testing: maxpool_redmax_0_Verilator
+242/292 Test: maxpool_redmax_0_Verilator
+Command: "/work/processor_models/verilator/build/verilated_model" "/work/build_programs/build/benchmark_sources/generic_cpp/prog_maxpool_redmax_0_Verilator.txt" "1" "32" "4194304" "1" "1" "maxpool_redmax_0_Verilator" "128" "0"
+Directory: /../..
+"maxpool_redmax_0_Verilator" start time: Oct 07 14:26 UTC
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       23062
+Total Instructions: 5569
+
+Testcase:
+
+Max pool s8 (vredmax): N=2 H=12 W=22 C=8 filter 5x6 stride 5x9 pad 1x1 -> 3x3
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.15 sec
+----------------------------------------------------------
+Test Passed.
+"maxpool_redmax_0_Verilator" end time: Oct 07 14:26 UTC
+"maxpool_redmax_0_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+256/292 Testing: maxpool_redmax_112_Verilator
+256/292 Test: maxpool_redmax_112_Verilator
+Command: "/work/processor_models/verilator/build/verilated_model" "/work/build_programs/build/benchmark_sources/generic_cpp/prog_maxpool_redmax_112_Verilator.txt" "1" "32" "4194304" "1" "1" "maxpool_redmax_112_Verilator" "128" "0"
+Directory: /../..
+"maxpool_redmax_112_Verilator" start time: Oct 07 14:26 UTC
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       10691
+Total Instructions: 2764
+
+Testcase:
+
+Max pool s8 (vredmax): N=1 H=16 W=16 C=4 filter 4x4 stride 4x4 pad 0x0 -> 4x4
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"maxpool_redmax_112_Verilator" end time: Oct 07 14:26 UTC
+"maxpool_redmax_112_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+267/292 Testing: maxpool_redmax_123_Verilator
+267/292 Test: maxpool_redmax_123_Verilator
+Command: "/work/processor_models/verilator/build/verilated_model" "/work/build_programs/build/benchmark_sources/generic_cpp/prog_maxpool_redmax_123_Verilator.txt" "1" "32" "4194304" "1" "1" "maxpool_redmax_123_Verilator" "128" "0"
+Directory: /../..
+"maxpool_redmax_123_Verilator" start time: Oct 07 14:26 UTC
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       18597
+Total Instructions: 3940
+
+Testcase:
+
+Max pool s8 (vredmax): N=1 H=16 W=16 C=16 filter 8x8 stride 8x8 pad 0x0 -> 2x2
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.13 sec
+----------------------------------------------------------
+Test Passed.
+"maxpool_redmax_123_Verilator" end time: Oct 07 14:26 UTC
+"maxpool_redmax_123_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+255/292 Testing: maxpool_redmax_111_Verilator
+255/292 Test: maxpool_redmax_111_Verilator
+Command: "/work/processor_models/verilator/build/verilated_model" "/work/build_programs/build/benchmark_sources/generic_cpp/prog_maxpool_redmax_111_Verilator.txt" "1" "32" "4194304" "1" "1" "maxpool_redmax_111_Verilator" "128" "0"
+Directory: /../..
+"maxpool_redmax_111_Verilator" start time: Oct 07 14:26 UTC
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       13140
+Total Instructions: 3613
+
+Testcase:
+
+Max pool s8 (vredmax): N=1 H=16 W=16 C=4 filter 3x3 stride 3x3 pad 0x0 -> 5x5
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Passed.
+"maxpool_redmax_111_Verilator" end time: Oct 07 14:26 UTC
+"maxpool_redmax_111_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+249/292 Testing: maxpool_redmax_105_Verilator
+249/292 Test: maxpool_redmax_105_Verilator
+Command: "/work/processor_models/verilator/build/verilated_model" "/work/build_programs/build/benchmark_sources/generic_cpp/prog_maxpool_redmax_105_Verilator.txt" "1" "32" "4194304" "1" "1" "maxpool_redmax_105_Verilator" "128" "0"
+Directory: /../..
+"maxpool_redmax_105_Verilator" start time: Oct 07 14:26 UTC
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       13760
+Total Instructions: 4660
+
+Testcase:
+
+Max pool s8 (vredmax): N=1 H=16 W=16 C=2 filter 2x2 stride 2x2 pad 0x0 -> 8x8
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.13 sec
+----------------------------------------------------------
+Test Passed.
+"maxpool_redmax_105_Verilator" end time: Oct 07 14:26 UTC
+"maxpool_redmax_105_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+251/292 Testing: maxpool_redmax_107_Verilator
+251/292 Test: maxpool_redmax_107_Verilator
+Command: "/work/processor_models/verilator/build/verilated_model" "/work/build_programs/build/benchmark_sources/generic_cpp/prog_maxpool_redmax_107_Verilator.txt" "1" "32" "4194304" "1" "1" "maxpool_redmax_107_Verilator" "128" "0"
+Directory: /../..
+"maxpool_redmax_107_Verilator" start time: Oct 07 14:26 UTC
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       5881
+Total Instructions: 1708
+
+Testcase:
+
+Max pool s8 (vredmax): N=1 H=16 W=16 C=2 filter 4x4 stride 4x4 pad 0x0 -> 4x4
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.10 sec
+----------------------------------------------------------
+Test Passed.
+"maxpool_redmax_107_Verilator" end time: Oct 07 14:26 UTC
+"maxpool_redmax_107_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+268/292 Testing: maxpool_redmax_124_Verilator
+268/292 Test: maxpool_redmax_124_Verilator
+Command: "/work/processor_models/verilator/build/verilated_model" "/work/build_programs/build/benchmark_sources/generic_cpp/prog_maxpool_redmax_124_Verilator.txt" "1" "32" "4194304" "1" "1" "maxpool_redmax_124_Verilator" "128" "0"
+Directory: /../..
+"maxpool_redmax_124_Verilator" start time: Oct 07 14:26 UTC
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       9128
+Total Instructions: 1867
+
+Testcase:
+
+Max pool s8 (vredmax): N=1 H=16 W=16 C=16 filter 16x16 stride 16x16 pad 0x0 -> 1x1
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.10 sec
+----------------------------------------------------------
+Test Passed.
+"maxpool_redmax_124_Verilator" end time: Oct 07 14:26 UTC
+"maxpool_redmax_124_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+250/292 Testing: maxpool_redmax_106_Verilator
+250/292 Test: maxpool_redmax_106_Verilator
+Command: "/work/processor_models/verilator/build/verilated_model" "/work/build_programs/build/benchmark_sources/generic_cpp/prog_maxpool_redmax_106_Verilator.txt" "1" "32" "4194304" "1" "1" "maxpool_redmax_106_Verilator" "128" "0"
+Directory: /../..
+"maxpool_redmax_106_Verilator" start time: Oct 07 14:26 UTC
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       7280
+Total Instructions: 2263
+
+Testcase:
+
+Max pool s8 (vredmax): N=1 H=16 W=16 C=2 filter 3x3 stride 3x3 pad 0x0 -> 5x5
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.10 sec
+----------------------------------------------------------
+Test Passed.
+"maxpool_redmax_106_Verilator" end time: Oct 07 14:26 UTC
+"maxpool_redmax_106_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+262/292 Testing: maxpool_redmax_118_Verilator
+262/292 Test: maxpool_redmax_118_Verilator
+Command: "/work/processor_models/verilator/build/verilated_model" "/work/build_programs/build/benchmark_sources/generic_cpp/prog_maxpool_redmax_118_Verilator.txt" "1" "32" "4194304" "1" "1" "maxpool_redmax_118_Verilator" "128" "0"
+Directory: /../..
+"maxpool_redmax_118_Verilator" start time: Oct 07 14:26 UTC
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       9573
+Total Instructions: 2116
+
+Testcase:
+
+Max pool s8 (vredmax): N=1 H=16 W=16 C=8 filter 8x8 stride 8x8 pad 0x0 -> 2x2
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"maxpool_redmax_118_Verilator" end time: Oct 07 14:26 UTC
+"maxpool_redmax_118_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+257/292 Testing: maxpool_redmax_113_Verilator
+257/292 Test: maxpool_redmax_113_Verilator
+Command: "/work/processor_models/verilator/build/verilated_model" "/work/build_programs/build/benchmark_sources/generic_cpp/prog_maxpool_redmax_113_Verilator.txt" "1" "32" "4194304" "1" "1" "maxpool_redmax_113_Verilator" "128" "0"
+Directory: /../..
+"maxpool_redmax_113_Verilator" start time: Oct 07 14:26 UTC
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       5061
+Total Instructions: 1204
+
+Testcase:
+
+Max pool s8 (vredmax): N=1 H=16 W=16 C=4 filter 8x8 stride 8x8 pad 0x0 -> 2x2
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"maxpool_redmax_113_Verilator" end time: Oct 07 14:26 UTC
+"maxpool_redmax_113_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+282/292 Testing: maxpool_redmax_5_Verilator
+282/292 Test: maxpool_redmax_5_Verilator
+Command: "/work/processor_models/verilator/build/verilated_model" "/work/build_programs/build/benchmark_sources/generic_cpp/prog_maxpool_redmax_5_Verilator.txt" "1" "32" "4194304" "1" "1" "maxpool_redmax_5_Verilator" "128" "0"
+Directory: /../..
+"maxpool_redmax_5_Verilator" start time: Oct 07 14:26 UTC
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       9923
+Total Instructions: 3155
+
+Testcase:
+
+Max pool s8 (vredmax): N=1 H=3 W=3 C=20 filter 1x1 stride 1x1 pad 0x0 -> 3x3
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.14 sec
+----------------------------------------------------------
+Test Passed.
+"maxpool_redmax_5_Verilator" end time: Oct 07 14:26 UTC
+"maxpool_redmax_5_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+245/292 Testing: maxpool_redmax_101_Verilator
+245/292 Test: maxpool_redmax_101_Verilator
+Command: "/work/processor_models/verilator/build/verilated_model" "/work/build_programs/build/benchmark_sources/generic_cpp/prog_maxpool_redmax_101_Verilator.txt" "1" "32" "4194304" "1" "1" "maxpool_redmax_101_Verilator" "128" "0"
+Directory: /../..
+"maxpool_redmax_101_Verilator" start time: Oct 07 14:26 UTC
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       4240
+Total Instructions: 1588
+
+Testcase:
+
+Max pool s8 (vredmax): N=1 H=16 W=16 C=1 filter 3x3 stride 3x3 pad 0x0 -> 5x5
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.09 sec
+----------------------------------------------------------
+Test Passed.
+"maxpool_redmax_101_Verilator" end time: Oct 07 14:26 UTC
+"maxpool_redmax_101_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+237/292 Testing: maxpool_muriscv_3_Verilator
+237/292 Test: maxpool_muriscv_3_Verilator
+Command: "/work/processor_models/verilator/build/verilated_model" "/work/build_programs/build/benchmark_sources/generic_cpp/prog_maxpool_muriscv_3_Verilator.txt" "1" "32" "4194304" "1" "1" "maxpool_muriscv_3_Verilator" "128" "0"
+Directory: /../..
+"maxpool_muriscv_3_Verilator" start time: Oct 07 14:26 UTC
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       707
+Total Instructions: 392
+
+Testcase:
+
+Max pool s8 (muRISCV-NN): N=1 H=1 W=9 C=2 filter 1x1 stride 1x2 pad 0x0 -> 1x5
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"maxpool_muriscv_3_Verilator" end time: Oct 07 14:26 UTC
+"maxpool_muriscv_3_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+244/292 Testing: maxpool_redmax_100_Verilator
+244/292 Test: maxpool_redmax_100_Verilator
+Command: "/work/processor_models/verilator/build/verilated_model" "/work/build_programs/build/benchmark_sources/generic_cpp/prog_maxpool_redmax_100_Verilator.txt" "1" "32" "4194304" "1" "1" "maxpool_redmax_100_Verilator" "128" "0"
+Directory: /../..
+"maxpool_redmax_100_Verilator" start time: Oct 07 14:26 UTC
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       8074
+Total Instructions: 3316
+
+Testcase:
+
+Max pool s8 (vredmax): N=1 H=16 W=16 C=1 filter 2x2 stride 2x2 pad 0x0 -> 8x8
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"maxpool_redmax_100_Verilator" end time: Oct 07 14:26 UTC
+"maxpool_redmax_100_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+252/292 Testing: maxpool_redmax_108_Verilator
+252/292 Test: maxpool_redmax_108_Verilator
+Command: "/work/processor_models/verilator/build/verilated_model" "/work/build_programs/build/benchmark_sources/generic_cpp/prog_maxpool_redmax_108_Verilator.txt" "1" "32" "4194304" "1" "1" "maxpool_redmax_108_Verilator" "128" "0"
+Directory: /../..
+"maxpool_redmax_108_Verilator" start time: Oct 07 14:26 UTC
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       2795
+Total Instructions: 748
+
+Testcase:
+
+Max pool s8 (vredmax): N=1 H=16 W=16 C=2 filter 8x8 stride 8x8 pad 0x0 -> 2x2
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.09 sec
+----------------------------------------------------------
+Test Passed.
+"maxpool_redmax_108_Verilator" end time: Oct 07 14:26 UTC
+"maxpool_redmax_108_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+243/292 Testing: maxpool_redmax_1_Verilator
+243/292 Test: maxpool_redmax_1_Verilator
+Command: "/work/processor_models/verilator/build/verilated_model" "/work/build_programs/build/benchmark_sources/generic_cpp/prog_maxpool_redmax_1_Verilator.txt" "1" "32" "4194304" "1" "1" "maxpool_redmax_1_Verilator" "128" "0"
+Directory: /../..
+"maxpool_redmax_1_Verilator" start time: Oct 07 14:26 UTC
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       941
+Total Instructions: 304
+
+Testcase:
+
+Max pool s8 (vredmax): N=1 H=5 W=9 C=3 filter 5x9 stride 2x1 pad 0x0 -> 1x1
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.07 sec
+----------------------------------------------------------
+Test Passed.
+"maxpool_redmax_1_Verilator" end time: Oct 07 14:26 UTC
+"maxpool_redmax_1_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+258/292 Testing: maxpool_redmax_114_Verilator
+258/292 Test: maxpool_redmax_114_Verilator
+Command: "/work/processor_models/verilator/build/verilated_model" "/work/build_programs/build/benchmark_sources/generic_cpp/prog_maxpool_redmax_114_Verilator.txt" "1" "32" "4194304" "1" "1" "maxpool_redmax_114_Verilator" "128" "0"
+Directory: /../..
+"maxpool_redmax_114_Verilator" start time: Oct 07 14:26 UTC
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       2576
+Total Instructions: 607
+
+Testcase:
+
+Max pool s8 (vredmax): N=1 H=16 W=16 C=4 filter 16x16 stride 16x16 pad 0x0 -> 1x1
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.09 sec
+----------------------------------------------------------
+Test Passed.
+"maxpool_redmax_114_Verilator" end time: Oct 07 14:26 UTC
+"maxpool_redmax_114_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+238/292 Testing: maxpool_muriscv_4_Verilator
+238/292 Test: maxpool_muriscv_4_Verilator
+Command: "/work/processor_models/verilator/build/verilated_model" "/work/build_programs/build/benchmark_sources/generic_cpp/prog_maxpool_muriscv_4_Verilator.txt" "1" "32" "4194304" "1" "1" "maxpool_muriscv_4_Verilator" "128" "0"
+Directory: /../..
+"maxpool_muriscv_4_Verilator" start time: Oct 07 14:26 UTC
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       3086
+Total Instructions: 1094
+
+Testcase:
+
+Max pool s8 (muRISCV-NN): N=1 H=20 W=1 C=2 filter 3x1 stride 3x1 pad 0x0 -> 7x1
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"maxpool_muriscv_4_Verilator" end time: Oct 07 14:26 UTC
+"maxpool_muriscv_4_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+236/292 Testing: maxpool_muriscv_2_Verilator
+236/292 Test: maxpool_muriscv_2_Verilator
+Command: "/work/processor_models/verilator/build/verilated_model" "/work/build_programs/build/benchmark_sources/generic_cpp/prog_maxpool_muriscv_2_Verilator.txt" "1" "32" "4194304" "1" "1" "maxpool_muriscv_2_Verilator" "128" "0"
+Directory: /../..
+"maxpool_muriscv_2_Verilator" start time: Oct 07 14:26 UTC
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       4059
+Total Instructions: 1089
+
+Testcase:
+
+Max pool s8 (muRISCV-NN): N=1 H=1 W=12 C=5 filter 1x3 stride 2x1 pad 0x1 -> 1x12
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.10 sec
+----------------------------------------------------------
+Test Passed.
+"maxpool_muriscv_2_Verilator" end time: Oct 07 14:26 UTC
+"maxpool_muriscv_2_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+248/292 Testing: maxpool_redmax_104_Verilator
+248/292 Test: maxpool_redmax_104_Verilator
+Command: "/work/processor_models/verilator/build/verilated_model" "/work/build_programs/build/benchmark_sources/generic_cpp/prog_maxpool_redmax_104_Verilator.txt" "1" "32" "4194304" "1" "1" "maxpool_redmax_104_Verilator" "128" "0"
+Directory: /../..
+"maxpool_redmax_104_Verilator" start time: Oct 07 14:26 UTC
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       933
+Total Instructions: 292
+
+Testcase:
+
+Max pool s8 (vredmax): N=1 H=16 W=16 C=1 filter 16x16 stride 16x16 pad 0x0 -> 1x1
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"maxpool_redmax_104_Verilator" end time: Oct 07 14:26 UTC
+"maxpool_redmax_104_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+283/292 Testing: maxpool_redmax_6_Verilator
+283/292 Test: maxpool_redmax_6_Verilator
+Command: "/work/processor_models/verilator/build/verilated_model" "/work/build_programs/build/benchmark_sources/generic_cpp/prog_maxpool_redmax_6_Verilator.txt" "1" "32" "4194304" "1" "1" "maxpool_redmax_6_Verilator" "128" "0"
+Directory: /../..
+"maxpool_redmax_6_Verilator" start time: Oct 07 14:26 UTC
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       4455
+Total Instructions: 1160
+
+Testcase:
+
+Max pool s8 (vredmax): N=1 H=5 W=1 C=17 filter 4x3 stride 3x1 pad 1x1 -> 2x1
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"maxpool_redmax_6_Verilator" end time: Oct 07 14:26 UTC
+"maxpool_redmax_6_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+246/292 Testing: maxpool_redmax_102_Verilator
+246/292 Test: maxpool_redmax_102_Verilator
+Command: "/work/processor_models/verilator/build/verilated_model" "/work/build_programs/build/benchmark_sources/generic_cpp/prog_maxpool_redmax_102_Verilator.txt" "1" "32" "4194304" "1" "1" "maxpool_redmax_102_Verilator" "128" "0"
+Directory: /../..
+"maxpool_redmax_102_Verilator" start time: Oct 07 14:26 UTC
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       3411
+Total Instructions: 1180
+
+Testcase:
+
+Max pool s8 (vredmax): N=1 H=16 W=16 C=1 filter 4x4 stride 4x4 pad 0x0 -> 4x4
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.10 sec
+----------------------------------------------------------
+Test Passed.
+"maxpool_redmax_102_Verilator" end time: Oct 07 14:26 UTC
+"maxpool_redmax_102_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+280/292 Testing: maxpool_redmax_3_Verilator
+280/292 Test: maxpool_redmax_3_Verilator
+Command: "/work/processor_models/verilator/build/verilated_model" "/work/build_programs/build/benchmark_sources/generic_cpp/prog_maxpool_redmax_3_Verilator.txt" "1" "32" "4194304" "1" "1" "maxpool_redmax_3_Verilator" "128" "0"
+Directory: /../..
+"maxpool_redmax_3_Verilator" start time: Oct 07 14:26 UTC
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       1030
+Total Instructions: 437
+
+Testcase:
+
+Max pool s8 (vredmax): N=1 H=1 W=9 C=2 filter 1x1 stride 1x2 pad 0x0 -> 1x5
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"maxpool_redmax_3_Verilator" end time: Oct 07 14:26 UTC
+"maxpool_redmax_3_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+253/292 Testing: maxpool_redmax_109_Verilator
+253/292 Test: maxpool_redmax_109_Verilator
+Command: "/work/processor_models/verilator/build/verilated_model" "/work/build_programs/build/benchmark_sources/generic_cpp/prog_maxpool_redmax_109_Verilator.txt" "1" "32" "4194304" "1" "1" "maxpool_redmax_109_Verilator" "128" "0"
+Directory: /../..
+"maxpool_redmax_109_Verilator" start time: Oct 07 14:26 UTC
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       1474
+Total Instructions: 397
+
+Testcase:
+
+Max pool s8 (vredmax): N=1 H=16 W=16 C=2 filter 16x16 stride 16x16 pad 0x0 -> 1x1
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"maxpool_redmax_109_Verilator" end time: Oct 07 14:26 UTC
+"maxpool_redmax_109_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+284/292 Testing: maxpool_redmax_7_Verilator
+284/292 Test: maxpool_redmax_7_Verilator
+Command: "/work/processor_models/verilator/build/verilated_model" "/work/build_programs/build/benchmark_sources/generic_cpp/prog_maxpool_redmax_7_Verilator.txt" "1" "32" "4194304" "1" "1" "maxpool_redmax_7_Verilator" "128" "0"
+Directory: /../..
+"maxpool_redmax_7_Verilator" start time: Oct 07 14:26 UTC
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       580
+Total Instructions: 254
+
+Testcase:
+
+Max pool s8 (vredmax): N=1 H=2 W=4 C=1 filter 2x2 stride 2x2 pad 0x0 -> 1x2
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"maxpool_redmax_7_Verilator" end time: Oct 07 14:26 UTC
+"maxpool_redmax_7_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+239/292 Testing: maxpool_muriscv_5_Verilator
+239/292 Test: maxpool_muriscv_5_Verilator
+Command: "/work/processor_models/verilator/build/verilated_model" "/work/build_programs/build/benchmark_sources/generic_cpp/prog_maxpool_muriscv_5_Verilator.txt" "1" "32" "4194304" "1" "1" "maxpool_muriscv_5_Verilator" "128" "0"
+Directory: /../..
+"maxpool_muriscv_5_Verilator" start time: Oct 07 14:26 UTC
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       1461
+Total Instructions: 729
+
+Testcase:
+
+Max pool s8 (muRISCV-NN): N=1 H=3 W=3 C=20 filter 1x1 stride 1x1 pad 0x0 -> 3x3
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.10 sec
+----------------------------------------------------------
+Test Passed.
+"maxpool_muriscv_5_Verilator" end time: Oct 07 14:26 UTC
+"maxpool_muriscv_5_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+200/292 Testing: maxpool_muriscv_1_Verilator
+200/292 Test: maxpool_muriscv_1_Verilator
+Command: "/work/processor_models/verilator/build/verilated_model" "/work/build_programs/build/benchmark_sources/generic_cpp/prog_maxpool_muriscv_1_Verilator.txt" "1" "32" "4194304" "1" "1" "maxpool_muriscv_1_Verilator" "128" "0"
+Directory: /../..
+"maxpool_muriscv_1_Verilator" start time: Oct 07 14:26 UTC
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       5884
+Total Instructions: 962
+
+Testcase:
+
+Max pool s8 (muRISCV-NN): N=1 H=5 W=9 C=3 filter 5x9 stride 2x1 pad 0x0 -> 1x1
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.09 sec
+----------------------------------------------------------
+Test Passed.
+"maxpool_muriscv_1_Verilator" end time: Oct 07 14:26 UTC
+"maxpool_muriscv_1_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+263/292 Testing: maxpool_redmax_119_Verilator
+263/292 Test: maxpool_redmax_119_Verilator
+Command: "/work/processor_models/verilator/build/verilated_model" "/work/build_programs/build/benchmark_sources/generic_cpp/prog_maxpool_redmax_119_Verilator.txt" "1" "32" "4194304" "1" "1" "maxpool_redmax_119_Verilator" "128" "0"
+Directory: /../..
+"maxpool_redmax_119_Verilator" start time: Oct 07 14:26 UTC
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       4760
+Total Instructions: 1027
+
+Testcase:
+
+Max pool s8 (vredmax): N=1 H=16 W=16 C=8 filter 16x16 stride 16x16 pad 0x0 -> 1x1
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.09 sec
+----------------------------------------------------------
+Test Passed.
+"maxpool_redmax_119_Verilator" end time: Oct 07 14:26 UTC
+"maxpool_redmax_119_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+240/292 Testing: maxpool_muriscv_6_Verilator
+240/292 Test: maxpool_muriscv_6_Verilator
+Command: "/work/processor_models/verilator/build/verilated_model" "/work/build_programs/build/benchmark_sources/generic_cpp/prog_maxpool_muriscv_6_Verilator.txt" "1" "32" "4194304" "1" "1" "maxpool_muriscv_6_Verilator" "128" "0"
+Directory: /../..
+"maxpool_muriscv_6_Verilator" start time: Oct 07 14:26 UTC
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       1188
+Total Instructions: 421
+
+Testcase:
+
+Max pool s8 (muRISCV-NN): N=1 H=5 W=1 C=17 filter 4x3 stride 3x1 pad 1x1 -> 2x1
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"maxpool_muriscv_6_Verilator" end time: Oct 07 14:26 UTC
+"maxpool_muriscv_6_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+279/292 Testing: maxpool_redmax_2_Verilator
+279/292 Test: maxpool_redmax_2_Verilator
+Command: "/work/processor_models/verilator/build/verilated_model" "/work/build_programs/build/benchmark_sources/generic_cpp/prog_maxpool_redmax_2_Verilator.txt" "1" "32" "4194304" "1" "1" "maxpool_redmax_2_Verilator" "128" "0"
+Directory: /../..
+"maxpool_redmax_2_Verilator" start time: Oct 07 14:26 UTC
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       3795
+Total Instructions: 1361
+
+Testcase:
+
+Max pool s8 (vredmax): N=1 H=1 W=12 C=5 filter 1x3 stride 2x1 pad 0x1 -> 1x12
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.10 sec
+----------------------------------------------------------
+Test Passed.
+"maxpool_redmax_2_Verilator" end time: Oct 07 14:26 UTC
+"maxpool_redmax_2_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+247/292 Testing: maxpool_redmax_103_Verilator
+247/292 Test: maxpool_redmax_103_Verilator
+Command: "/work/processor_models/verilator/build/verilated_model" "/work/build_programs/build/benchmark_sources/generic_cpp/prog_maxpool_redmax_103_Verilator.txt" "1" "32" "4194304" "1" "1" "maxpool_redmax_103_Verilator" "128" "0"
+Directory: /../..
+"maxpool_redmax_103_Verilator" start time: Oct 07 14:26 UTC
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       1657
+Total Instructions: 520
+
+Testcase:
+
+Max pool s8 (vredmax): N=1 H=16 W=16 C=1 filter 8x8 stride 8x8 pad 0x0 -> 2x2
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"maxpool_redmax_103_Verilator" end time: Oct 07 14:26 UTC
+"maxpool_redmax_103_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+241/292 Testing: maxpool_muriscv_7_Verilator
+241/292 Test: maxpool_muriscv_7_Verilator
+Command: "/work/processor_models/verilator/build/verilated_model" "/work/build_programs/build/benchmark_sources/generic_cpp/prog_maxpool_muriscv_7_Verilator.txt" "1" "32" "4194304" "1" "1" "maxpool_muriscv_7_Verilator" "128" "0"
+Directory: /../..
+"maxpool_muriscv_7_Verilator" start time: Oct 07 14:26 UTC
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       1286
+Total Instructions: 378
+
+Testcase:
+
+Max pool s8 (muRISCV-NN): N=1 H=2 W=4 C=1 filter 2x2 stride 2x2 pad 0x0 -> 1x2
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.07 sec
+----------------------------------------------------------
+Test Passed.
+"maxpool_muriscv_7_Verilator" end time: Oct 07 14:26 UTC
+"maxpool_muriscv_7_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+281/292 Testing: maxpool_redmax_4_Verilator
+281/292 Test: maxpool_redmax_4_Verilator
+Command: "/work/processor_models/verilator/build/verilated_model" "/work/build_programs/build/benchmark_sources/generic_cpp/prog_maxpool_redmax_4_Verilator.txt" "1" "32" "4194304" "1" "1" "maxpool_redmax_4_Verilator" "128" "0"
+Directory: /../..
+"maxpool_redmax_4_Verilator" start time: Oct 07 14:26 UTC
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       2419
+Total Instructions: 883
+
+Testcase:
+
+Max pool s8 (vredmax): N=1 H=20 W=1 C=2 filter 3x1 stride 3x1 pad 0x0 -> 7x1
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"maxpool_redmax_4_Verilator" end time: Oct 07 14:26 UTC
+"maxpool_redmax_4_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 07 14:26 UTC
