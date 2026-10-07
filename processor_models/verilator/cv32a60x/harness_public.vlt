@@ -1,0 +1,4 @@
+`verilator_config
+// Signals the testbench reads directly (verilator_support_cv32a60x.cpp: update_instructions()).
+// pc_commit is optimised away by Verilator 5.05x unless it is marked public.
+public_flat_rd -module "cva6_pipeline" -var "pc_commit"

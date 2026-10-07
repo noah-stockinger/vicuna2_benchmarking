@@ -256,6 +256,7 @@ elseif( ${SCALAR_CORE} STREQUAL "cv32a60x" ) #TODO: Verify/Test support for floa
                                 ${RISCV_ZVE32F}
                                 ${RISCV_ZVFH}
                                 ${COMMIT_AND_ISSUE}
+                                ${CMAKE_CURRENT_SOURCE_DIR}/${SCALAR_CORE}/harness_public.vlt #Keeps signals read by the testbench visible
                                 -CFLAGS "-std=gnu++14 -O2")
 
 
