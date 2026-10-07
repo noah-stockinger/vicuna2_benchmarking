@@ -13,6 +13,8 @@ target_include_directories(sim_Verilator INTERFACE
   ${CMAKE_CURRENT_SOURCE_DIR}/verilator
 )
 
+#gem5/hybrid support needs sources from the gem5 submodule; only set it up when one of those simulators is enabled
+if(GEM5_SIM OR HYBRID_GEM5_SIM)
 #Add library for m5 support ops (called from inside simulated program to interact with gem5)
 add_library(m5 STATIC)
 
@@ -53,6 +55,7 @@ target_include_directories(sim_hybrid INTERFACE
 target_link_libraries(sim_hybrid INTERFACE
   m5
 )
+endif()
 
 
 #Add library for spike simulation specific implementations
