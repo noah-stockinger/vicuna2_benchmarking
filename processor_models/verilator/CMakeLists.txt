@@ -262,6 +262,9 @@ elseif( ${SCALAR_CORE} STREQUAL "cv32a60x" ) #TODO: Verify/Test support for floa
 
 
         # Compile verilator model as a shared library for linking with gem5.  This prevents a rebuild of gem5 every time the model changes.  Currently only supported for CVA6
+        # Only needed for gem5/hybrid simulation; set -DGEM5_LIB=OFF for Verilator-only builds (paths below assume an in-tree Verilator build)
+        option(GEM5_LIB "Build verilated_model_lib for gem5/hybrid simulation" ON)
+        if(GEM5_LIB)
         add_library(verilated_model_lib SHARED)
 
         file(GLOB VERILATOR_FILES "${CMAKE_CURRENT_SOURCE_DIR}/build/CMakeFiles/verilated_model.dir/Vvproc_top.dir/*.cpp" )
@@ -278,6 +281,7 @@ elseif( ${SCALAR_CORE} STREQUAL "cv32a60x" ) #TODO: Verify/Test support for floa
         ${TOOLCHAIN_TOP}/verilator/include/vltstd/
         ${TOOLCHAIN_TOP}/verilator/include/
         )
+        endif()
 
 
 else()
