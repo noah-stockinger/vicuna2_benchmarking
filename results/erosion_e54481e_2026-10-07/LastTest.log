@@ -1,0 +1,195 @@
+Start testing: Oct 07 14:26 UTC
+----------------------------------------------------------
+287/292 Testing: erosion_redmin_2_Verilator
+287/292 Test: erosion_redmin_2_Verilator
+Command: "/work/processor_models/verilator/build/verilated_model" "/work/build_programs/build/benchmark_sources/generic_cpp/prog_erosion_redmin_2_Verilator.txt" "1" "32" "4194304" "1" "1" "erosion_redmin_2_Verilator" "128" "0"
+Directory: /../..
+"erosion_redmin_2_Verilator" start time: Oct 07 14:26 UTC
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       174440
+Total Instructions: 60589
+
+Testcase:
+
+Erosion u8 (vredminu): H=32 W=32 k=7
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.68 sec
+----------------------------------------------------------
+Test Passed.
+"erosion_redmin_2_Verilator" end time: Oct 07 14:26 UTC
+"erosion_redmin_2_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+288/292 Testing: erosion_redmin_3_Verilator
+288/292 Test: erosion_redmin_3_Verilator
+Command: "/work/processor_models/verilator/build/verilated_model" "/work/build_programs/build/benchmark_sources/generic_cpp/prog_erosion_redmin_3_Verilator.txt" "1" "32" "4194304" "1" "1" "erosion_redmin_3_Verilator" "128" "0"
+Directory: /../..
+"erosion_redmin_3_Verilator" start time: Oct 07 14:26 UTC
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       212008
+Total Instructions: 71308
+
+Testcase:
+
+Erosion u8 (vredminu): H=32 W=32 k=9
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.77 sec
+----------------------------------------------------------
+Test Passed.
+"erosion_redmin_3_Verilator" end time: Oct 07 14:26 UTC
+"erosion_redmin_3_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+289/292 Testing: erosion_redmin_4_Verilator
+289/292 Test: erosion_redmin_4_Verilator
+Command: "/work/processor_models/verilator/build/verilated_model" "/work/build_programs/build/benchmark_sources/generic_cpp/prog_erosion_redmin_4_Verilator.txt" "1" "32" "4194304" "1" "1" "erosion_redmin_4_Verilator" "128" "0"
+Directory: /../..
+"erosion_redmin_4_Verilator" start time: Oct 07 14:26 UTC
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       316648
+Total Instructions: 101161
+
+Testcase:
+
+Erosion u8 (vredminu): H=32 W=32 k=15
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   1.08 sec
+----------------------------------------------------------
+Test Passed.
+"erosion_redmin_4_Verilator" end time: Oct 07 14:26 UTC
+"erosion_redmin_4_Verilator" time elapsed: 00:00:01
+----------------------------------------------------------
+
+285/292 Testing: erosion_redmin_0_Verilator
+285/292 Test: erosion_redmin_0_Verilator
+Command: "/work/processor_models/verilator/build/verilated_model" "/work/build_programs/build/benchmark_sources/generic_cpp/prog_erosion_redmin_0_Verilator.txt" "1" "32" "4194304" "1" "1" "erosion_redmin_0_Verilator" "128" "0"
+Directory: /../..
+"erosion_redmin_0_Verilator" start time: Oct 07 14:26 UTC
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       94798
+Total Instructions: 37999
+
+Testcase:
+
+Erosion u8 (vredminu): H=32 W=32 k=3
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.41 sec
+----------------------------------------------------------
+Test Passed.
+"erosion_redmin_0_Verilator" end time: Oct 07 14:26 UTC
+"erosion_redmin_0_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+286/292 Testing: erosion_redmin_1_Verilator
+286/292 Test: erosion_redmin_1_Verilator
+Command: "/work/processor_models/verilator/build/verilated_model" "/work/build_programs/build/benchmark_sources/generic_cpp/prog_erosion_redmin_1_Verilator.txt" "1" "32" "4194304" "1" "1" "erosion_redmin_1_Verilator" "128" "0"
+Directory: /../..
+"erosion_redmin_1_Verilator" start time: Oct 07 14:26 UTC
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       135373
+Total Instructions: 49486
+
+Testcase:
+
+Erosion u8 (vredminu): H=32 W=32 k=5
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.52 sec
+----------------------------------------------------------
+Test Passed.
+"erosion_redmin_1_Verilator" end time: Oct 07 14:26 UTC
+"erosion_redmin_1_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+290/292 Testing: erosion_redmin_5_Verilator
+290/292 Test: erosion_redmin_5_Verilator
+Command: "/work/processor_models/verilator/build/verilated_model" "/work/build_programs/build/benchmark_sources/generic_cpp/prog_erosion_redmin_5_Verilator.txt" "1" "32" "4194304" "1" "1" "erosion_redmin_5_Verilator" "128" "0"
+Directory: /../..
+"erosion_redmin_5_Verilator" start time: Oct 07 14:26 UTC
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       23630
+Total Instructions: 9551
+
+Testcase:
+
+Erosion u8 (vredminu): H=16 W=16 k=3
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.17 sec
+----------------------------------------------------------
+Test Passed.
+"erosion_redmin_5_Verilator" end time: Oct 07 14:26 UTC
+"erosion_redmin_5_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+291/292 Testing: erosion_redmin_6_Verilator
+291/292 Test: erosion_redmin_6_Verilator
+Command: "/work/processor_models/verilator/build/verilated_model" "/work/build_programs/build/benchmark_sources/generic_cpp/prog_erosion_redmin_6_Verilator.txt" "1" "32" "4194304" "1" "1" "erosion_redmin_6_Verilator" "128" "0"
+Directory: /../..
+"erosion_redmin_6_Verilator" start time: Oct 07 14:26 UTC
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       379982
+Total Instructions: 151727
+
+Testcase:
+
+Erosion u8 (vredminu): H=64 W=64 k=3
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   1.43 sec
+----------------------------------------------------------
+Test Passed.
+"erosion_redmin_6_Verilator" end time: Oct 07 14:26 UTC
+"erosion_redmin_6_Verilator" time elapsed: 00:00:01
+----------------------------------------------------------
+
+292/292 Testing: erosion_redmin_7_Verilator
+292/292 Test: erosion_redmin_7_Verilator
+Command: "/work/processor_models/verilator/build/verilated_model" "/work/build_programs/build/benchmark_sources/generic_cpp/prog_erosion_redmin_7_Verilator.txt" "1" "32" "4194304" "1" "1" "erosion_redmin_7_Verilator" "128" "0"
+Directory: /../..
+"erosion_redmin_7_Verilator" start time: Oct 07 14:26 UTC
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       88302
+Total Instructions: 35423
+
+Testcase:
+
+Erosion u8 (vredminu): H=24 W=40 k=3
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.39 sec
+----------------------------------------------------------
+Test Passed.
+"erosion_redmin_7_Verilator" end time: Oct 07 14:26 UTC
+"erosion_redmin_7_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 07 14:26 UTC
