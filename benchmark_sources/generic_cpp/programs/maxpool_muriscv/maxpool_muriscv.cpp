@@ -1,3 +1,7 @@
+// ======================================================================================
+// COPIED 1:1: license header (original lines 1-18).
+// ADDED: the 'Ported from ... Changes' paragraph at the end of the comment block.
+// ======================================================================================
 /*
  * Copyright (C) 2010-2021 Arm Limited or its affiliates.
  *
@@ -25,6 +29,11 @@
  * Loop structure and vector instructions are unchanged.
  */
 
+// ======================================================================================
+// ADDED: includes and MAX/MIN macros.
+// The original includes riscv_vector.h + muriscv_nn_functions.h / _support_functions.h;
+// MAX/MIN come from muriscv_nn_support_functions.h there. Types now in maxpool_muriscv.hpp.
+// ======================================================================================
 #include <cstring>
 
 #include "maxpool_muriscv.hpp"
@@ -32,6 +41,11 @@
 #define MAX(A, B) ((A) > (B) ? (A) : (B))
 #define MIN(A, B) ((A) < (B) ? (A) : (B))
 
+// ======================================================================================
+// TRANSLATED: helper 1. Signature, for-loop and first comment copied 1:1.
+// Loop body: the original intrinsics (kept in the /* */ comment) replaced 1:1 by inline asm.
+// Removed: the USE_PEXT and scalar fallback paths.
+// ======================================================================================
 static inline void compare_and_replace_if_larger(int8_t *base, const int8_t *target, int32_t length)
 {
     /* We are operating on vl elements at a time. */
@@ -52,6 +66,9 @@ static inline void compare_and_replace_if_larger(int8_t *base, const int8_t *tar
     }
 }
 
+// ======================================================================================
+// TRANSLATED: helper 2, same treatment as helper 1.
+// ======================================================================================
 static inline void clamp_output(int8_t *source, int32_t length, const int32_t act_min, const int32_t act_max)
 {
     /* We are operating on vl elements at a time. */
@@ -71,6 +88,10 @@ static inline void clamp_output(int8_t *source, int32_t length, const int32_t ac
     }
 }
 
+// ======================================================================================
+// COPIED 1:1: the whole pooling function, character for character.
+// Only the Doxygen group comments around it were dropped.
+// ======================================================================================
 muriscv_nn_status muriscv_nn_max_pool_s8(const muriscv_nn_context *ctx,
                                          const muriscv_nn_pool_params *pool_params,
                                          const muriscv_nn_dims *input_dims,
@@ -146,3 +167,6 @@ muriscv_nn_status muriscv_nn_max_pool_s8(const muriscv_nn_context *ctx,
 
     return MURISCV_NN_SUCCESS;
 }
+// ======================================================================================
+// END of copied pooling function.
+// ======================================================================================

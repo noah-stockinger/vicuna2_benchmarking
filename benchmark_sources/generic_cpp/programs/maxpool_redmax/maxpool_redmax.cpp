@@ -1,3 +1,6 @@
+// ======================================================================================
+// OWN: include + header comment (no muRISCV-NN license header here).
+// ======================================================================================
 #include "maxpool_redmax.hpp"
 
 /*
@@ -11,11 +14,21 @@
  * vmv.s.x at LMUL > 1 hangs the pipeline on core e54481e.
  */
 
+// ======================================================================================
+// SAME AS PORT: MAX/MIN macros (added in maxpool_muriscv.cpp too).
+// ======================================================================================
 #define MAX(A, B) ((A) > (B) ? (A) : (B))
 #define MIN(A, B) ((A) < (B) ? (A) : (B))
 
+// ======================================================================================
+// OWN: ROW_MAX = widest window row one m1 register can hold.
+// ======================================================================================
 #define ROW_MAX 16 // VLMAX at e8,m1 with VLEN 128
 
+// ======================================================================================
+// OWN: window_max(), the vredmax chain over one window of one channel.
+// Replaces muRISCV-NN's compare_and_replace_if_larger() (vmax.vv across channels).
+// ======================================================================================
 static inline int8_t window_max(const int8_t *row, int32_t rows, int32_t row_len,
                                 int32_t elem_stride, int32_t row_stride)
 {
@@ -37,6 +50,10 @@ static inline int8_t window_max(const int8_t *row, int32_t rows, int32_t row_len
     return (int8_t)res;
 }
 
+// ======================================================================================
+// COPIED from maxpool_muriscv.cpp: clamp_output(), translated muRISCV-NN code;
+// only the intrinsic comments were left out.
+// ======================================================================================
 // Same as clamp_output() in maxpool_muriscv.cpp
 static inline void clamp_output(int8_t *source, int32_t length, const int32_t act_min, const int32_t act_max)
 {
@@ -54,6 +71,10 @@ static inline void clamp_output(int8_t *source, int32_t length, const int32_t ac
     }
 }
 
+// ======================================================================================
+// COPIED from muRISCV-NN muriscv_nn_max_pool_s8(), renamed to maxpool_redmax_s8().
+// Identical except the two places marked CHANGED / OWN below and the dropped comments.
+// ======================================================================================
 muriscv_nn_status maxpool_redmax_s8(const muriscv_nn_context *ctx,
                                     const muriscv_nn_pool_params *pool_params,
                                     const muriscv_nn_dims *input_dims,
@@ -78,11 +99,17 @@ muriscv_nn_status maxpool_redmax_s8(const muriscv_nn_context *ctx,
     (void)ctx;
     int8_t *dst_base = dst;
 
+    // =================================================================================
+    // CHANGED: '|| kernel_x > ROW_MAX' added (rows wider than one m1 register).
+    // =================================================================================
     if (input_dims->n < 1 || kernel_x > ROW_MAX)
     {
         return MURISCV_NN_ARG_ERROR;
     }
 
+    // =================================================================================
+    // COPIED again: loop nest and window clipping (original comments dropped).
+    // =================================================================================
     for (int32_t batch = 0; batch < input_dims->n; batch++)
     {
         for (int32_t i_y = 0, base_idx_y = -pad_y; i_y < output_y; base_idx_y += stride_y, i_y++)
@@ -94,6 +121,10 @@ muriscv_nn_status maxpool_redmax_s8(const muriscv_nn_context *ctx,
                 const int32_t kernel_y_end = MIN(kernel_y, input_y - base_idx_y);
                 const int32_t kernel_x_end = MIN(kernel_x, input_x - base_idx_x);
 
+                // =====================================================================
+                // OWN: replaces the k_y/k_x loop with memcpy + compare_and_replace_if_larger.
+                // Here: per channel c, one window_max() call = one output byte.
+                // =====================================================================
                 // top-left pixel of the clipped window, channel 0
                 const int8_t *start = src + channel_in * (ker_x_start + base_idx_x + (ker_y_start + base_idx_y) * input_x);
 
@@ -102,6 +133,9 @@ muriscv_nn_status maxpool_redmax_s8(const muriscv_nn_context *ctx,
                     dst[c] = window_max(start + c, kernel_y_end - ker_y_start, kernel_x_end - ker_x_start,
                                         channel_in, channel_in * input_x);
                 }
+                // =====================================================================
+                // COPIED again: rest of the function.
+                // =====================================================================
                 dst += channel_in;
             }
         }
@@ -114,3 +148,6 @@ muriscv_nn_status maxpool_redmax_s8(const muriscv_nn_context *ctx,
 
     return MURISCV_NN_SUCCESS;
 }
+// ======================================================================================
+// END of copied pooling function.
+// ======================================================================================
