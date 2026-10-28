@@ -25,6 +25,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 INDEX = ROOT / "benchmark_sources" / "generic_cpp" / "programs" / "redminmax_micro" / "test_data" / "INDEX.csv"
 DEFAULT_LOG = ROOT / "build_programs" / "build" / "Testing" / "Temporary" / "LastTest.log"
+CONFIG = ROOT / "processor_models" / "vector_config.cmake"
 NAME = re.compile(r"^\d+/\d+ Test: redminmax_micro_(\d+)_Verilator$")
 
 
@@ -46,6 +47,16 @@ def tool_version(cmd):
         return subprocess.run(cmd, capture_output=True, text=True).stdout.splitlines()[0]
     except (OSError, IndexError):
         return "unknown"
+
+
+def op_w(unit="VREDMINMAX"):
+    """Operand width of the pipeline holding `unit`, from VPROC_PIPELINES in vector_config.cmake."""
+    m = re.search(r'set\(VPROC_PIPELINES "([^"]*)"\)', CONFIG.read_text())
+    for pipe in m.group(1).split():
+        width, units = pipe.split(":")
+        if unit in units.split(","):
+            return int(width)
+    raise SystemExit(f"{unit} not in VPROC_PIPELINES of {CONFIG}")
 
 
 def parse_log(path):
@@ -74,12 +85,13 @@ def main():
     args = ap.parse_args()
 
     core = git("rev-parse", "--short", "HEAD", cwd=ROOT / "rtl" / "vicuna2_core")
-    out = Path(args.out) if args.out else ROOT / "results" / f"redminmax_micro_{core}_{datetime.date.today()}"
+    out = Path(args.out).resolve() if args.out else ROOT / "results" / f"redminmax_micro_{core}_{datetime.date.today()}"
     out.mkdir(parents=True, exist_ok=True)
 
     with open(INDEX) as f:
         index = list(csv.DictReader(f))
     log = parse_log(args.log)
+    width = op_w()
 
     raw, missing = [], []
     for row in index:
@@ -105,7 +117,7 @@ def main():
         per_setting.append({
             "setting": sid, "experiment": a["experiment"], "op": a["op"], "sew": a["sew"],
             "lmul": a["lmul"], "vl": a["vl"],
-            "chunks": -(-int(a["vl"]) * int(a["sew"]) // 32),   # ceil(vl*SEW/32), OP_W = 32
+            "chunks": -(-int(a["vl"]) * int(a["sew"]) // width),   # ceil(vl*SEW/OP_W)
             "cycles_lo": a["cycles"], "cycles_hi": b["cycles"],
             "cycles_per_red": (b["cycles"] - a["cycles"]) / (hi - lo) if ok else "",
             "instr_per_red": (b["instructions"] - a["instructions"]) / (hi - lo) if ok else "",
@@ -121,13 +133,14 @@ def main():
         f"date: {datetime.datetime.now().isoformat(timespec='seconds')}\n"
         f"vicuna2_benchmarking: {repo_state()}\n"
         f"vicuna2_core: {core}\n"
+        f"op_w_redminmax: {width}\n"
         f"verilator: {tool_version([str(ROOT / 'toolchain/verilator/bin/verilator'), '--version'])}\n"
         f"gcc: {tool_version([str(ROOT / 'toolchain/GCC/multilib/bin/riscv32-unknown-elf-gcc'), '--version'])}\n"
     )
 
     n_pass = sum(r["status"] == "passed" for r in raw)
     print(f"{n_pass}/{len(raw)} tests passed, {sum(p['valid'] for p in per_setting)}/{len(per_setting)} "
-          f"settings valid -> {out.relative_to(ROOT)}")
+          f"settings valid -> {out.relative_to(ROOT) if out.is_relative_to(ROOT) else out}")
     if missing:
         print(f"WARNING: {len(missing)} tests not in log, e.g. {missing[:5]}")
 

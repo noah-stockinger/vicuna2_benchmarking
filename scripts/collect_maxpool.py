@@ -56,7 +56,7 @@ def main():
     args = ap.parse_args()
 
     core = git("rev-parse", "--short", "HEAD", cwd=ROOT / "rtl" / "vicuna2_core")
-    out = Path(args.out) if args.out else ROOT / "results" / f"maxpool_{core}_{datetime.date.today()}"
+    out = Path(args.out).resolve() if args.out else ROOT / "results" / f"maxpool_{core}_{datetime.date.today()}"
     out.mkdir(parents=True, exist_ok=True)
 
     log = parse_log(args.log)
@@ -95,7 +95,7 @@ def main():
     )
     n_pass = sum(r["status"] == "passed" for r in raw)
     print(f"{n_pass}/{len(raw)} tests passed, {sum(c['valid'] for c in compare)}/{len(compare)} "
-          f"comparisons valid -> {out.relative_to(ROOT)}")
+          f"comparisons valid -> {out.relative_to(ROOT) if out.is_relative_to(ROOT) else out}")
 
 
 if __name__ == "__main__":
