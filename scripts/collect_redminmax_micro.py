@@ -49,10 +49,14 @@ def tool_version(cmd):
         return "unknown"
 
 
+def pipelines():
+    """VPROC_PIPELINES as written in vector_config.cmake."""
+    return re.search(r'set\(VPROC_PIPELINES "([^"]*)"\)', CONFIG.read_text()).group(1)
+
+
 def op_w(unit="VREDMINMAX"):
     """Operand width of the pipeline holding `unit`, from VPROC_PIPELINES in vector_config.cmake."""
-    m = re.search(r'set\(VPROC_PIPELINES "([^"]*)"\)', CONFIG.read_text())
-    for pipe in m.group(1).split():
+    for pipe in pipelines().split():
         width, units = pipe.split(":")
         if unit in units.split(","):
             return int(width)
@@ -133,6 +137,8 @@ def main():
         f"date: {datetime.datetime.now().isoformat(timespec='seconds')}\n"
         f"vicuna2_benchmarking: {repo_state()}\n"
         f"vicuna2_core: {core}\n"
+        f'cv32a60x: {git("rev-parse", "--short", "HEAD", cwd=ROOT / "rtl" / "cv32a60x")}\n'
+        f"vproc_pipelines: {pipelines()}\n"
         f"op_w_redminmax: {width}\n"
         f"verilator: {tool_version([str(ROOT / 'toolchain/verilator/bin/verilator'), '--version'])}\n"
         f"gcc: {tool_version([str(ROOT / 'toolchain/GCC/multilib/bin/riscv32-unknown-elf-gcc'), '--version'])}\n"

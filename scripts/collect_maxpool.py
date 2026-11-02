@@ -21,7 +21,7 @@ import re
 import shutil
 from pathlib import Path
 
-from collect_redminmax_micro import git, repo_state, tool_version, ROOT, DEFAULT_LOG
+from collect_redminmax_micro import git, repo_state, tool_version, pipelines, ROOT, DEFAULT_LOG
 
 NAME = re.compile(r"^\d+/\d+ Test: maxpool_(muriscv|redmax)_(\d+)_Verilator$")
 SHAPE = re.compile(r"N=(\d+) H=(\d+) W=(\d+) C=(\d+) filter (\d+)x(\d+) stride (\d+)x(\d+) pad (\d+)x(\d+) -> (\d+)x(\d+)")
@@ -90,6 +90,8 @@ def main():
         f"date: {datetime.datetime.now().isoformat(timespec='seconds')}\n"
         f"vicuna2_benchmarking: {repo_state()}\n"
         f"vicuna2_core: {core}\n"
+        f'cv32a60x: {git("rev-parse", "--short", "HEAD", cwd=ROOT / "rtl" / "cv32a60x")}\n'
+        f"vproc_pipelines: {pipelines()}\n"
         f"verilator: {tool_version([str(ROOT / 'toolchain/verilator/bin/verilator'), '--version'])}\n"
         f"gcc: {tool_version([str(ROOT / 'toolchain/GCC/multilib/bin/riscv32-unknown-elf-gcc'), '--version'])}\n"
     )
