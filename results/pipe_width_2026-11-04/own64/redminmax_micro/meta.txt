@@ -1,0 +1,8 @@
+date: 2026-11-04T09:44:53
+vicuna2_benchmarking: cfcd050 (dirty)
+vicuna2_core: ed2252f
+cv32a60x: 67cdafd0
+vproc_pipelines: ${VMEM_TOTAL_W}:VLSU 32:VXRESULT,VSLD,VDIV,VALU,VMUL,VREDSUM 64:VREDMINMAX
+op_w_redminmax: 64
+verilator: Verilator 5.047 devel rev v5.046-202-gbf453361f
+gcc: riscv32-unknown-elf-gcc () 16.1.0

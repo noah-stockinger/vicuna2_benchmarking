@@ -1,0 +1,4701 @@
+Start testing: Nov 04 09:44 CET
+----------------------------------------------------------
+25/284 Testing: redminmax_micro_0_Verilator
+25/284 Test: redminmax_micro_0_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_0_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_0_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_0_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       174
+Total Instructions: 67
+
+Busy REDMINMAX:     32
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=8 LMUL=1 vl=16 reps=16
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_0_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_0_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+28/284 Testing: redminmax_micro_100_Verilator
+28/284 Test: redminmax_micro_100_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_100_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_100_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_100_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       395
+Total Instructions: 60
+
+Busy REDMINMAX:     256
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=8 LMUL=8 vl=3 reps=16
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_100_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_100_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+27/284 Testing: redminmax_micro_10_Verilator
+27/284 Test: redminmax_micro_10_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_10_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_10_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_10_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       209
+Total Instructions: 69
+
+Busy REDMINMAX:     64
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=16 LMUL=2 vl=16 reps=16
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_10_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_10_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+30/284 Testing: redminmax_micro_102_Verilator
+30/284 Test: redminmax_micro_102_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_102_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_102_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_102_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       395
+Total Instructions: 60
+
+Busy REDMINMAX:     256
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=8 LMUL=8 vl=4 reps=16
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_102_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_102_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+32/284 Testing: redminmax_micro_104_Verilator
+32/284 Test: redminmax_micro_104_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_104_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_104_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_104_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       395
+Total Instructions: 60
+
+Busy REDMINMAX:     256
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=8 LMUL=8 vl=5 reps=16
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_104_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_104_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+26/284 Testing: redminmax_micro_1_Verilator
+26/284 Test: redminmax_micro_1_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_1_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_1_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_1_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       1711
+Total Instructions: 387
+
+Busy REDMINMAX:     544
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=8 LMUL=1 vl=16 reps=272
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_1_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_1_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+36/284 Testing: redminmax_micro_108_Verilator
+36/284 Test: redminmax_micro_108_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_108_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_108_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_108_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       395
+Total Instructions: 60
+
+Busy REDMINMAX:     256
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=8 LMUL=8 vl=9 reps=16
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_108_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_108_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+29/284 Testing: redminmax_micro_101_Verilator
+29/284 Test: redminmax_micro_101_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_101_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_101_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_101_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       5515
+Total Instructions: 380
+
+Busy REDMINMAX:     4352
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=8 LMUL=8 vl=3 reps=272
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_101_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_101_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+31/284 Testing: redminmax_micro_103_Verilator
+31/284 Test: redminmax_micro_103_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_103_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_103_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_103_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       5515
+Total Instructions: 380
+
+Busy REDMINMAX:     4352
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=8 LMUL=8 vl=4 reps=272
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_103_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_103_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+34/284 Testing: redminmax_micro_106_Verilator
+34/284 Test: redminmax_micro_106_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_106_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_106_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_106_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       395
+Total Instructions: 60
+
+Busy REDMINMAX:     256
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=8 LMUL=8 vl=8 reps=16
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_106_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_106_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+38/284 Testing: redminmax_micro_11_Verilator
+38/284 Test: redminmax_micro_11_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_11_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_11_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_11_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       2257
+Total Instructions: 389
+
+Busy REDMINMAX:     1088
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=16 LMUL=2 vl=16 reps=272
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_11_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_11_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+33/284 Testing: redminmax_micro_105_Verilator
+33/284 Test: redminmax_micro_105_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_105_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_105_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_105_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       5515
+Total Instructions: 380
+
+Busy REDMINMAX:     4352
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=8 LMUL=8 vl=5 reps=272
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_105_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_105_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+35/284 Testing: redminmax_micro_107_Verilator
+35/284 Test: redminmax_micro_107_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_107_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_107_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_107_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       5515
+Total Instructions: 380
+
+Busy REDMINMAX:     4352
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=8 LMUL=8 vl=8 reps=272
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_107_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_107_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+41/284 Testing: redminmax_micro_112_Verilator
+41/284 Test: redminmax_micro_112_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_112_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_112_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_112_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       395
+Total Instructions: 60
+
+Busy REDMINMAX:     256
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=8 LMUL=8 vl=17 reps=16
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_112_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_112_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+39/284 Testing: redminmax_micro_110_Verilator
+39/284 Test: redminmax_micro_110_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_110_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_110_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_110_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       395
+Total Instructions: 60
+
+Busy REDMINMAX:     256
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=8 LMUL=8 vl=16 reps=16
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_110_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_110_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+37/284 Testing: redminmax_micro_109_Verilator
+37/284 Test: redminmax_micro_109_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_109_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_109_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_109_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       5515
+Total Instructions: 380
+
+Busy REDMINMAX:     4352
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=8 LMUL=8 vl=9 reps=272
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_109_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_109_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+45/284 Testing: redminmax_micro_116_Verilator
+45/284 Test: redminmax_micro_116_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_116_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_116_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_116_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       395
+Total Instructions: 60
+
+Busy REDMINMAX:     256
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=8 LMUL=8 vl=33 reps=16
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_116_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_116_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+47/284 Testing: redminmax_micro_118_Verilator
+47/284 Test: redminmax_micro_118_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_118_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_118_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_118_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       395
+Total Instructions: 60
+
+Busy REDMINMAX:     256
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=8 LMUL=8 vl=64 reps=16
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_118_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_118_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+40/284 Testing: redminmax_micro_111_Verilator
+40/284 Test: redminmax_micro_111_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_111_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_111_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_111_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       5515
+Total Instructions: 380
+
+Busy REDMINMAX:     4352
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=8 LMUL=8 vl=16 reps=272
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_111_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_111_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+43/284 Testing: redminmax_micro_114_Verilator
+43/284 Test: redminmax_micro_114_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_114_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_114_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_114_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       395
+Total Instructions: 60
+
+Busy REDMINMAX:     256
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=8 LMUL=8 vl=32 reps=16
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_114_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_114_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+42/284 Testing: redminmax_micro_113_Verilator
+42/284 Test: redminmax_micro_113_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_113_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_113_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_113_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       5515
+Total Instructions: 380
+
+Busy REDMINMAX:     4352
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=8 LMUL=8 vl=17 reps=272
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.07 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_113_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_113_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+50/284 Testing: redminmax_micro_120_Verilator
+50/284 Test: redminmax_micro_120_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_120_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_120_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_120_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       395
+Total Instructions: 60
+
+Busy REDMINMAX:     256
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=8 LMUL=8 vl=65 reps=16
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_120_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_120_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+44/284 Testing: redminmax_micro_115_Verilator
+44/284 Test: redminmax_micro_115_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_115_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_115_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_115_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       5515
+Total Instructions: 380
+
+Busy REDMINMAX:     4352
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=8 LMUL=8 vl=32 reps=272
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_115_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_115_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+46/284 Testing: redminmax_micro_117_Verilator
+46/284 Test: redminmax_micro_117_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_117_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_117_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_117_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       5515
+Total Instructions: 380
+
+Busy REDMINMAX:     4352
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=8 LMUL=8 vl=33 reps=272
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_117_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_117_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+49/284 Testing: redminmax_micro_12_Verilator
+49/284 Test: redminmax_micro_12_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_12_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_12_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_12_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       277
+Total Instructions: 69
+
+Busy REDMINMAX:     128
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=16 LMUL=4 vl=32 reps=16
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_12_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_12_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+48/284 Testing: redminmax_micro_119_Verilator
+48/284 Test: redminmax_micro_119_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_119_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_119_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_119_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       5515
+Total Instructions: 380
+
+Busy REDMINMAX:     4352
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=8 LMUL=8 vl=64 reps=272
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_119_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_119_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+52/284 Testing: redminmax_micro_122_Verilator
+52/284 Test: redminmax_micro_122_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_122_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_122_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_122_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       395
+Total Instructions: 60
+
+Busy REDMINMAX:     256
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=8 LMUL=8 vl=127 reps=16
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_122_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_122_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+54/284 Testing: redminmax_micro_124_Verilator
+54/284 Test: redminmax_micro_124_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_124_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_124_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_124_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       395
+Total Instructions: 60
+
+Busy REDMINMAX:     256
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=8 LMUL=8 vl=128 reps=16
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_124_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_124_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+56/284 Testing: redminmax_micro_126_Verilator
+56/284 Test: redminmax_micro_126_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_126_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_126_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_126_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       397
+Total Instructions: 62
+
+Busy REDMINMAX:     256
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=16 LMUL=8 vl=1 reps=16
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_126_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_126_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+51/284 Testing: redminmax_micro_121_Verilator
+51/284 Test: redminmax_micro_121_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_121_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_121_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_121_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       5515
+Total Instructions: 380
+
+Busy REDMINMAX:     4352
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=8 LMUL=8 vl=65 reps=272
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_121_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_121_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+58/284 Testing: redminmax_micro_128_Verilator
+58/284 Test: redminmax_micro_128_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_128_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_128_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_128_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       397
+Total Instructions: 62
+
+Busy REDMINMAX:     256
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=16 LMUL=8 vl=2 reps=16
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_128_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_128_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+55/284 Testing: redminmax_micro_125_Verilator
+55/284 Test: redminmax_micro_125_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_125_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_125_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_125_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       5515
+Total Instructions: 380
+
+Busy REDMINMAX:     4352
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=8 LMUL=8 vl=128 reps=272
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_125_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_125_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+63/284 Testing: redminmax_micro_132_Verilator
+63/284 Test: redminmax_micro_132_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_132_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_132_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_132_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       397
+Total Instructions: 62
+
+Busy REDMINMAX:     256
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=16 LMUL=8 vl=4 reps=16
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_132_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_132_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+57/284 Testing: redminmax_micro_127_Verilator
+57/284 Test: redminmax_micro_127_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_127_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_127_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_127_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       5517
+Total Instructions: 382
+
+Busy REDMINMAX:     4352
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=16 LMUL=8 vl=1 reps=272
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_127_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_127_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+61/284 Testing: redminmax_micro_130_Verilator
+61/284 Test: redminmax_micro_130_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_130_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_130_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_130_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       397
+Total Instructions: 62
+
+Busy REDMINMAX:     256
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=16 LMUL=8 vl=3 reps=16
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_130_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_130_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+60/284 Testing: redminmax_micro_13_Verilator
+60/284 Test: redminmax_micro_13_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_13_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_13_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_13_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       3349
+Total Instructions: 389
+
+Busy REDMINMAX:     2176
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=16 LMUL=4 vl=32 reps=272
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_13_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_13_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+59/284 Testing: redminmax_micro_129_Verilator
+59/284 Test: redminmax_micro_129_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_129_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_129_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_129_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       5517
+Total Instructions: 382
+
+Busy REDMINMAX:     4352
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=16 LMUL=8 vl=2 reps=272
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_129_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_129_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+65/284 Testing: redminmax_micro_134_Verilator
+65/284 Test: redminmax_micro_134_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_134_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_134_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_134_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       397
+Total Instructions: 62
+
+Busy REDMINMAX:     256
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=16 LMUL=8 vl=5 reps=16
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_134_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_134_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+62/284 Testing: redminmax_micro_131_Verilator
+62/284 Test: redminmax_micro_131_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_131_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_131_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_131_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       5517
+Total Instructions: 382
+
+Busy REDMINMAX:     4352
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=16 LMUL=8 vl=3 reps=272
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_131_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_131_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+67/284 Testing: redminmax_micro_136_Verilator
+67/284 Test: redminmax_micro_136_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_136_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_136_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_136_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       397
+Total Instructions: 62
+
+Busy REDMINMAX:     256
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=16 LMUL=8 vl=8 reps=16
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_136_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_136_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+53/284 Testing: redminmax_micro_123_Verilator
+53/284 Test: redminmax_micro_123_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_123_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_123_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_123_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       5515
+Total Instructions: 380
+
+Busy REDMINMAX:     4352
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=8 LMUL=8 vl=127 reps=272
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_123_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_123_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+69/284 Testing: redminmax_micro_138_Verilator
+69/284 Test: redminmax_micro_138_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_138_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_138_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_138_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       397
+Total Instructions: 62
+
+Busy REDMINMAX:     256
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=16 LMUL=8 vl=9 reps=16
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_138_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_138_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+71/284 Testing: redminmax_micro_14_Verilator
+71/284 Test: redminmax_micro_14_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_14_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_14_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_14_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       397
+Total Instructions: 62
+
+Busy REDMINMAX:     256
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=16 LMUL=8 vl=64 reps=16
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_14_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_14_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+64/284 Testing: redminmax_micro_133_Verilator
+64/284 Test: redminmax_micro_133_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_133_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_133_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_133_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       5517
+Total Instructions: 382
+
+Busy REDMINMAX:     4352
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=16 LMUL=8 vl=4 reps=272
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_133_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_133_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+72/284 Testing: redminmax_micro_140_Verilator
+72/284 Test: redminmax_micro_140_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_140_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_140_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_140_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       397
+Total Instructions: 62
+
+Busy REDMINMAX:     256
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=16 LMUL=8 vl=16 reps=16
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_140_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_140_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+66/284 Testing: redminmax_micro_135_Verilator
+66/284 Test: redminmax_micro_135_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_135_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_135_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_135_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       5517
+Total Instructions: 382
+
+Busy REDMINMAX:     4352
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=16 LMUL=8 vl=5 reps=272
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_135_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_135_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+68/284 Testing: redminmax_micro_137_Verilator
+68/284 Test: redminmax_micro_137_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_137_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_137_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_137_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       5517
+Total Instructions: 382
+
+Busy REDMINMAX:     4352
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=16 LMUL=8 vl=8 reps=272
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_137_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_137_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+74/284 Testing: redminmax_micro_142_Verilator
+74/284 Test: redminmax_micro_142_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_142_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_142_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_142_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       397
+Total Instructions: 62
+
+Busy REDMINMAX:     256
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=16 LMUL=8 vl=17 reps=16
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_142_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_142_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+76/284 Testing: redminmax_micro_144_Verilator
+76/284 Test: redminmax_micro_144_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_144_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_144_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_144_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       397
+Total Instructions: 62
+
+Busy REDMINMAX:     256
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=16 LMUL=8 vl=32 reps=16
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_144_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_144_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+70/284 Testing: redminmax_micro_139_Verilator
+70/284 Test: redminmax_micro_139_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_139_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_139_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_139_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       5517
+Total Instructions: 382
+
+Busy REDMINMAX:     4352
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=16 LMUL=8 vl=9 reps=272
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_139_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_139_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+78/284 Testing: redminmax_micro_146_Verilator
+78/284 Test: redminmax_micro_146_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_146_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_146_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_146_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       397
+Total Instructions: 62
+
+Busy REDMINMAX:     256
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=16 LMUL=8 vl=33 reps=16
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_146_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_146_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+73/284 Testing: redminmax_micro_141_Verilator
+73/284 Test: redminmax_micro_141_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_141_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_141_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_141_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       5517
+Total Instructions: 382
+
+Busy REDMINMAX:     4352
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=16 LMUL=8 vl=16 reps=272
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_141_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_141_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+80/284 Testing: redminmax_micro_148_Verilator
+80/284 Test: redminmax_micro_148_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_148_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_148_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_148_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       397
+Total Instructions: 62
+
+Busy REDMINMAX:     256
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=16 LMUL=8 vl=63 reps=16
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_148_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_148_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+83/284 Testing: redminmax_micro_150_Verilator
+83/284 Test: redminmax_micro_150_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_150_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_150_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_150_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       397
+Total Instructions: 62
+
+Busy REDMINMAX:     256
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=16 LMUL=8 vl=64 reps=16
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_150_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_150_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+77/284 Testing: redminmax_micro_145_Verilator
+77/284 Test: redminmax_micro_145_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_145_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_145_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_145_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       5517
+Total Instructions: 382
+
+Busy REDMINMAX:     4352
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=16 LMUL=8 vl=32 reps=272
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_145_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_145_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+75/284 Testing: redminmax_micro_143_Verilator
+75/284 Test: redminmax_micro_143_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_143_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_143_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_143_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       5517
+Total Instructions: 382
+
+Busy REDMINMAX:     4352
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=16 LMUL=8 vl=17 reps=272
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.07 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_143_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_143_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+79/284 Testing: redminmax_micro_147_Verilator
+79/284 Test: redminmax_micro_147_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_147_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_147_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_147_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       5517
+Total Instructions: 382
+
+Busy REDMINMAX:     4352
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=16 LMUL=8 vl=33 reps=272
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_147_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_147_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+85/284 Testing: redminmax_micro_152_Verilator
+85/284 Test: redminmax_micro_152_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_152_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_152_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_152_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       404
+Total Instructions: 64
+
+Busy REDMINMAX:     256
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=32 LMUL=8 vl=1 reps=16
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_152_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_152_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+82/284 Testing: redminmax_micro_15_Verilator
+82/284 Test: redminmax_micro_15_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_15_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_15_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_15_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       5517
+Total Instructions: 382
+
+Busy REDMINMAX:     4352
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=16 LMUL=8 vl=64 reps=272
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_15_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_15_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+81/284 Testing: redminmax_micro_149_Verilator
+81/284 Test: redminmax_micro_149_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_149_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_149_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_149_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       5517
+Total Instructions: 382
+
+Busy REDMINMAX:     4352
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=16 LMUL=8 vl=63 reps=272
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_149_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_149_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+87/284 Testing: redminmax_micro_154_Verilator
+87/284 Test: redminmax_micro_154_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_154_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_154_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_154_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       404
+Total Instructions: 64
+
+Busy REDMINMAX:     256
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=32 LMUL=8 vl=2 reps=16
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_154_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_154_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+89/284 Testing: redminmax_micro_156_Verilator
+89/284 Test: redminmax_micro_156_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_156_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_156_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_156_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       404
+Total Instructions: 64
+
+Busy REDMINMAX:     256
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=32 LMUL=8 vl=3 reps=16
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_156_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_156_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+84/284 Testing: redminmax_micro_151_Verilator
+84/284 Test: redminmax_micro_151_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_151_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_151_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_151_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       5517
+Total Instructions: 382
+
+Busy REDMINMAX:     4352
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=16 LMUL=8 vl=64 reps=272
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.07 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_151_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_151_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+91/284 Testing: redminmax_micro_158_Verilator
+91/284 Test: redminmax_micro_158_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_158_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_158_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_158_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       404
+Total Instructions: 64
+
+Busy REDMINMAX:     256
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=32 LMUL=8 vl=4 reps=16
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_158_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_158_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+86/284 Testing: redminmax_micro_153_Verilator
+86/284 Test: redminmax_micro_153_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_153_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_153_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_153_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       5524
+Total Instructions: 384
+
+Busy REDMINMAX:     4352
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=32 LMUL=8 vl=1 reps=272
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_153_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_153_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+88/284 Testing: redminmax_micro_155_Verilator
+88/284 Test: redminmax_micro_155_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_155_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_155_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_155_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       5524
+Total Instructions: 384
+
+Busy REDMINMAX:     4352
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=32 LMUL=8 vl=2 reps=272
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_155_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_155_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+93/284 Testing: redminmax_micro_16_Verilator
+93/284 Test: redminmax_micro_16_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_16_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_16_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_16_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       174
+Total Instructions: 70
+
+Busy REDMINMAX:     32
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=32 LMUL=1 vl=4 reps=16
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_16_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_16_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+94/284 Testing: redminmax_micro_160_Verilator
+94/284 Test: redminmax_micro_160_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_160_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_160_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_160_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       404
+Total Instructions: 64
+
+Busy REDMINMAX:     256
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=32 LMUL=8 vl=5 reps=16
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_160_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_160_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+96/284 Testing: redminmax_micro_162_Verilator
+96/284 Test: redminmax_micro_162_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_162_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_162_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_162_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       404
+Total Instructions: 64
+
+Busy REDMINMAX:     256
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=32 LMUL=8 vl=8 reps=16
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_162_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_162_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+92/284 Testing: redminmax_micro_159_Verilator
+92/284 Test: redminmax_micro_159_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_159_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_159_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_159_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       5524
+Total Instructions: 384
+
+Busy REDMINMAX:     4352
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=32 LMUL=8 vl=4 reps=272
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_159_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_159_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+98/284 Testing: redminmax_micro_164_Verilator
+98/284 Test: redminmax_micro_164_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_164_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_164_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_164_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       404
+Total Instructions: 64
+
+Busy REDMINMAX:     256
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=32 LMUL=8 vl=9 reps=16
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_164_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_164_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+90/284 Testing: redminmax_micro_157_Verilator
+90/284 Test: redminmax_micro_157_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_157_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_157_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_157_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       5524
+Total Instructions: 384
+
+Busy REDMINMAX:     4352
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=32 LMUL=8 vl=3 reps=272
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.07 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_157_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_157_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+100/284 Testing: redminmax_micro_166_Verilator
+100/284 Test: redminmax_micro_166_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_166_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_166_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_166_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       404
+Total Instructions: 64
+
+Busy REDMINMAX:     256
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=32 LMUL=8 vl=16 reps=16
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_166_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_166_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+95/284 Testing: redminmax_micro_161_Verilator
+95/284 Test: redminmax_micro_161_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_161_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_161_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_161_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       5524
+Total Instructions: 384
+
+Busy REDMINMAX:     4352
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=32 LMUL=8 vl=5 reps=272
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_161_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_161_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+97/284 Testing: redminmax_micro_163_Verilator
+97/284 Test: redminmax_micro_163_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_163_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_163_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_163_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       5524
+Total Instructions: 384
+
+Busy REDMINMAX:     4352
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=32 LMUL=8 vl=8 reps=272
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_163_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_163_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+102/284 Testing: redminmax_micro_168_Verilator
+102/284 Test: redminmax_micro_168_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_168_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_168_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_168_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       404
+Total Instructions: 64
+
+Busy REDMINMAX:     256
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=32 LMUL=8 vl=17 reps=16
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_168_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_168_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+99/284 Testing: redminmax_micro_165_Verilator
+99/284 Test: redminmax_micro_165_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_165_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_165_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_165_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       5524
+Total Instructions: 384
+
+Busy REDMINMAX:     4352
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=32 LMUL=8 vl=9 reps=272
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_165_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_165_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+104/284 Testing: redminmax_micro_17_Verilator
+104/284 Test: redminmax_micro_17_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_17_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_17_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_17_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       1710
+Total Instructions: 390
+
+Busy REDMINMAX:     544
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=32 LMUL=1 vl=4 reps=272
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_17_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_17_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+107/284 Testing: redminmax_micro_172_Verilator
+107/284 Test: redminmax_micro_172_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_172_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_172_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_172_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       404
+Total Instructions: 64
+
+Busy REDMINMAX:     256
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=32 LMUL=8 vl=32 reps=16
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_172_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_172_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+105/284 Testing: redminmax_micro_170_Verilator
+105/284 Test: redminmax_micro_170_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_170_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_170_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_170_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       404
+Total Instructions: 64
+
+Busy REDMINMAX:     256
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=32 LMUL=8 vl=31 reps=16
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_170_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_170_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+103/284 Testing: redminmax_micro_169_Verilator
+103/284 Test: redminmax_micro_169_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_169_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_169_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_169_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       5524
+Total Instructions: 384
+
+Busy REDMINMAX:     4352
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=32 LMUL=8 vl=17 reps=272
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_169_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_169_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+101/284 Testing: redminmax_micro_167_Verilator
+101/284 Test: redminmax_micro_167_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_167_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_167_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_167_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       5524
+Total Instructions: 384
+
+Busy REDMINMAX:     4352
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=32 LMUL=8 vl=16 reps=272
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.07 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_167_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_167_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+112/284 Testing: redminmax_micro_20_Verilator
+112/284 Test: redminmax_micro_20_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_20_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_20_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_20_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       274
+Total Instructions: 70
+
+Busy REDMINMAX:     128
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=32 LMUL=4 vl=16 reps=16
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_20_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_20_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+111/284 Testing: redminmax_micro_2_Verilator
+111/284 Test: redminmax_micro_2_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_2_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_2_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_2_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       207
+Total Instructions: 67
+
+Busy REDMINMAX:     64
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=8 LMUL=2 vl=32 reps=16
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_2_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_2_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+106/284 Testing: redminmax_micro_171_Verilator
+106/284 Test: redminmax_micro_171_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_171_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_171_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_171_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       5524
+Total Instructions: 384
+
+Busy REDMINMAX:     4352
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=32 LMUL=8 vl=31 reps=272
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_171_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_171_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+109/284 Testing: redminmax_micro_18_Verilator
+109/284 Test: redminmax_micro_18_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_18_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_18_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_18_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       206
+Total Instructions: 70
+
+Busy REDMINMAX:     64
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=32 LMUL=2 vl=8 reps=16
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_18_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_18_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+110/284 Testing: redminmax_micro_19_Verilator
+110/284 Test: redminmax_micro_19_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_19_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_19_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_19_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       2254
+Total Instructions: 390
+
+Busy REDMINMAX:     1088
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=32 LMUL=2 vl=8 reps=272
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_19_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_19_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+108/284 Testing: redminmax_micro_173_Verilator
+108/284 Test: redminmax_micro_173_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_173_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_173_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_173_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       5524
+Total Instructions: 384
+
+Busy REDMINMAX:     4352
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=32 LMUL=8 vl=32 reps=272
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_173_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_173_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+114/284 Testing: redminmax_micro_22_Verilator
+114/284 Test: redminmax_micro_22_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_22_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_22_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_22_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       404
+Total Instructions: 64
+
+Busy REDMINMAX:     256
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=32 LMUL=8 vl=32 reps=16
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_22_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_22_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+116/284 Testing: redminmax_micro_24_Verilator
+116/284 Test: redminmax_micro_24_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_24_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_24_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_24_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       170
+Total Instructions: 67
+
+Busy REDMINMAX:     32
+Busy ALU:           4
+
+Testcase:
+
+vredmaxu.vs SEW=8 LMUL=1 vl=16 reps=16
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_24_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_24_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+113/284 Testing: redminmax_micro_21_Verilator
+113/284 Test: redminmax_micro_21_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_21_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_21_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_21_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       3346
+Total Instructions: 390
+
+Busy REDMINMAX:     2176
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=32 LMUL=4 vl=16 reps=272
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_21_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_21_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+120/284 Testing: redminmax_micro_28_Verilator
+120/284 Test: redminmax_micro_28_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_28_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_28_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_28_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       270
+Total Instructions: 67
+
+Busy REDMINMAX:     128
+Busy ALU:           4
+
+Testcase:
+
+vredmaxu.vs SEW=8 LMUL=4 vl=64 reps=16
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_28_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_28_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+118/284 Testing: redminmax_micro_26_Verilator
+118/284 Test: redminmax_micro_26_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_26_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_26_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_26_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       202
+Total Instructions: 67
+
+Busy REDMINMAX:     64
+Busy ALU:           4
+
+Testcase:
+
+vredmaxu.vs SEW=8 LMUL=2 vl=32 reps=16
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_26_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_26_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+117/284 Testing: redminmax_micro_25_Verilator
+117/284 Test: redminmax_micro_25_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_25_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_25_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_25_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       1706
+Total Instructions: 387
+
+Busy REDMINMAX:     544
+Busy ALU:           4
+
+Testcase:
+
+vredmaxu.vs SEW=8 LMUL=1 vl=16 reps=272
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_25_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_25_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+119/284 Testing: redminmax_micro_27_Verilator
+119/284 Test: redminmax_micro_27_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_27_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_27_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_27_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       2250
+Total Instructions: 387
+
+Busy REDMINMAX:     1088
+Busy ALU:           4
+
+Testcase:
+
+vredmaxu.vs SEW=8 LMUL=2 vl=32 reps=272
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_27_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_27_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+125/284 Testing: redminmax_micro_32_Verilator
+125/284 Test: redminmax_micro_32_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_32_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_32_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_32_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       172
+Total Instructions: 69
+
+Busy REDMINMAX:     32
+Busy ALU:           4
+
+Testcase:
+
+vredmaxu.vs SEW=16 LMUL=1 vl=8 reps=16
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_32_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_32_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+122/284 Testing: redminmax_micro_3_Verilator
+122/284 Test: redminmax_micro_3_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_3_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_3_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_3_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       2255
+Total Instructions: 387
+
+Busy REDMINMAX:     1088
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=8 LMUL=2 vl=32 reps=272
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_3_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_3_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+121/284 Testing: redminmax_micro_29_Verilator
+121/284 Test: redminmax_micro_29_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_29_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_29_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_29_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       3342
+Total Instructions: 387
+
+Busy REDMINMAX:     2176
+Busy ALU:           4
+
+Testcase:
+
+vredmaxu.vs SEW=8 LMUL=4 vl=64 reps=272
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_29_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_29_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+127/284 Testing: redminmax_micro_34_Verilator
+127/284 Test: redminmax_micro_34_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_34_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_34_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_34_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       204
+Total Instructions: 69
+
+Busy REDMINMAX:     64
+Busy ALU:           4
+
+Testcase:
+
+vredmaxu.vs SEW=16 LMUL=2 vl=16 reps=16
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_34_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_34_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+126/284 Testing: redminmax_micro_33_Verilator
+126/284 Test: redminmax_micro_33_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_33_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_33_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_33_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       1708
+Total Instructions: 389
+
+Busy REDMINMAX:     544
+Busy ALU:           4
+
+Testcase:
+
+vredmaxu.vs SEW=16 LMUL=1 vl=8 reps=272
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_33_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_33_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+115/284 Testing: redminmax_micro_23_Verilator
+115/284 Test: redminmax_micro_23_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_23_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_23_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_23_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       5524
+Total Instructions: 384
+
+Busy REDMINMAX:     4352
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=32 LMUL=8 vl=32 reps=272
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.07 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_23_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_23_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+123/284 Testing: redminmax_micro_30_Verilator
+123/284 Test: redminmax_micro_30_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_30_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_30_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_30_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       390
+Total Instructions: 60
+
+Busy REDMINMAX:     256
+Busy ALU:           4
+
+Testcase:
+
+vredmaxu.vs SEW=8 LMUL=8 vl=128 reps=16
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_30_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_30_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+124/284 Testing: redminmax_micro_31_Verilator
+124/284 Test: redminmax_micro_31_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_31_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_31_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_31_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       5510
+Total Instructions: 380
+
+Busy REDMINMAX:     4352
+Busy ALU:           4
+
+Testcase:
+
+vredmaxu.vs SEW=8 LMUL=8 vl=128 reps=272
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_31_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_31_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+129/284 Testing: redminmax_micro_36_Verilator
+129/284 Test: redminmax_micro_36_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_36_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_36_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_36_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       272
+Total Instructions: 69
+
+Busy REDMINMAX:     128
+Busy ALU:           4
+
+Testcase:
+
+vredmaxu.vs SEW=16 LMUL=4 vl=32 reps=16
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_36_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_36_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+128/284 Testing: redminmax_micro_35_Verilator
+128/284 Test: redminmax_micro_35_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_35_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_35_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_35_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       2252
+Total Instructions: 389
+
+Busy REDMINMAX:     1088
+Busy ALU:           4
+
+Testcase:
+
+vredmaxu.vs SEW=16 LMUL=2 vl=16 reps=272
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_35_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_35_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+131/284 Testing: redminmax_micro_38_Verilator
+131/284 Test: redminmax_micro_38_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_38_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_38_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_38_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       392
+Total Instructions: 62
+
+Busy REDMINMAX:     256
+Busy ALU:           4
+
+Testcase:
+
+vredmaxu.vs SEW=16 LMUL=8 vl=64 reps=16
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_38_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_38_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+133/284 Testing: redminmax_micro_4_Verilator
+133/284 Test: redminmax_micro_4_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_4_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_4_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_4_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       275
+Total Instructions: 67
+
+Busy REDMINMAX:     128
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=8 LMUL=4 vl=64 reps=16
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_4_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_4_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+130/284 Testing: redminmax_micro_37_Verilator
+130/284 Test: redminmax_micro_37_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_37_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_37_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_37_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       3344
+Total Instructions: 389
+
+Busy REDMINMAX:     2176
+Busy ALU:           4
+
+Testcase:
+
+vredmaxu.vs SEW=16 LMUL=4 vl=32 reps=272
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_37_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_37_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+136/284 Testing: redminmax_micro_42_Verilator
+136/284 Test: redminmax_micro_42_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_42_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_42_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_42_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       201
+Total Instructions: 70
+
+Busy REDMINMAX:     64
+Busy ALU:           4
+
+Testcase:
+
+vredmaxu.vs SEW=32 LMUL=2 vl=8 reps=16
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_42_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_42_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+138/284 Testing: redminmax_micro_44_Verilator
+138/284 Test: redminmax_micro_44_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_44_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_44_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_44_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       269
+Total Instructions: 70
+
+Busy REDMINMAX:     128
+Busy ALU:           4
+
+Testcase:
+
+vredmaxu.vs SEW=32 LMUL=4 vl=16 reps=16
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_44_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_44_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+135/284 Testing: redminmax_micro_41_Verilator
+135/284 Test: redminmax_micro_41_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_41_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_41_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_41_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       1705
+Total Instructions: 390
+
+Busy REDMINMAX:     544
+Busy ALU:           4
+
+Testcase:
+
+vredmaxu.vs SEW=32 LMUL=1 vl=4 reps=272
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_41_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_41_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+134/284 Testing: redminmax_micro_40_Verilator
+134/284 Test: redminmax_micro_40_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_40_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_40_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_40_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       169
+Total Instructions: 70
+
+Busy REDMINMAX:     32
+Busy ALU:           4
+
+Testcase:
+
+vredmaxu.vs SEW=32 LMUL=1 vl=4 reps=16
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_40_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_40_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+132/284 Testing: redminmax_micro_39_Verilator
+132/284 Test: redminmax_micro_39_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_39_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_39_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_39_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       5512
+Total Instructions: 382
+
+Busy REDMINMAX:     4352
+Busy ALU:           4
+
+Testcase:
+
+vredmaxu.vs SEW=16 LMUL=8 vl=64 reps=272
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_39_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_39_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+137/284 Testing: redminmax_micro_43_Verilator
+137/284 Test: redminmax_micro_43_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_43_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_43_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_43_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       2249
+Total Instructions: 390
+
+Busy REDMINMAX:     1088
+Busy ALU:           4
+
+Testcase:
+
+vredmaxu.vs SEW=32 LMUL=2 vl=8 reps=272
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_43_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_43_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+140/284 Testing: redminmax_micro_46_Verilator
+140/284 Test: redminmax_micro_46_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_46_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_46_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_46_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       399
+Total Instructions: 64
+
+Busy REDMINMAX:     256
+Busy ALU:           4
+
+Testcase:
+
+vredmaxu.vs SEW=32 LMUL=8 vl=32 reps=16
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_46_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_46_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+142/284 Testing: redminmax_micro_48_Verilator
+142/284 Test: redminmax_micro_48_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_48_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_48_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_48_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       172
+Total Instructions: 65
+
+Busy REDMINMAX:     32
+Busy ALU:           4
+
+Testcase:
+
+vredmin.vs SEW=8 LMUL=1 vl=16 reps=16
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_48_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_48_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+139/284 Testing: redminmax_micro_45_Verilator
+139/284 Test: redminmax_micro_45_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_45_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_45_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_45_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       3341
+Total Instructions: 390
+
+Busy REDMINMAX:     2176
+Busy ALU:           4
+
+Testcase:
+
+vredmaxu.vs SEW=32 LMUL=4 vl=16 reps=272
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_45_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_45_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+145/284 Testing: redminmax_micro_50_Verilator
+145/284 Test: redminmax_micro_50_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_50_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_50_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_50_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       205
+Total Instructions: 65
+
+Busy REDMINMAX:     64
+Busy ALU:           4
+
+Testcase:
+
+vredmin.vs SEW=8 LMUL=2 vl=32 reps=16
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_50_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_50_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+147/284 Testing: redminmax_micro_52_Verilator
+147/284 Test: redminmax_micro_52_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_52_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_52_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_52_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       273
+Total Instructions: 65
+
+Busy REDMINMAX:     128
+Busy ALU:           4
+
+Testcase:
+
+vredmin.vs SEW=8 LMUL=4 vl=64 reps=16
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_52_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_52_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+146/284 Testing: redminmax_micro_51_Verilator
+146/284 Test: redminmax_micro_51_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_51_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_51_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_51_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       2253
+Total Instructions: 385
+
+Busy REDMINMAX:     1088
+Busy ALU:           4
+
+Testcase:
+
+vredmin.vs SEW=8 LMUL=2 vl=32 reps=272
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_51_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_51_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+141/284 Testing: redminmax_micro_47_Verilator
+141/284 Test: redminmax_micro_47_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_47_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_47_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_47_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       5519
+Total Instructions: 384
+
+Busy REDMINMAX:     4352
+Busy ALU:           4
+
+Testcase:
+
+vredmaxu.vs SEW=32 LMUL=8 vl=32 reps=272
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_47_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_47_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+149/284 Testing: redminmax_micro_54_Verilator
+149/284 Test: redminmax_micro_54_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_54_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_54_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_54_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       393
+Total Instructions: 58
+
+Busy REDMINMAX:     256
+Busy ALU:           4
+
+Testcase:
+
+vredmin.vs SEW=8 LMUL=8 vl=128 reps=16
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_54_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_54_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+143/284 Testing: redminmax_micro_49_Verilator
+143/284 Test: redminmax_micro_49_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_49_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_49_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_49_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       1709
+Total Instructions: 385
+
+Busy REDMINMAX:     544
+Busy ALU:           4
+
+Testcase:
+
+vredmin.vs SEW=8 LMUL=1 vl=16 reps=272
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_49_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_49_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+148/284 Testing: redminmax_micro_53_Verilator
+148/284 Test: redminmax_micro_53_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_53_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_53_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_53_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       3345
+Total Instructions: 385
+
+Busy REDMINMAX:     2176
+Busy ALU:           4
+
+Testcase:
+
+vredmin.vs SEW=8 LMUL=4 vl=64 reps=272
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_53_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_53_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+151/284 Testing: redminmax_micro_56_Verilator
+151/284 Test: redminmax_micro_56_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_56_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_56_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_56_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       174
+Total Instructions: 67
+
+Busy REDMINMAX:     32
+Busy ALU:           4
+
+Testcase:
+
+vredmin.vs SEW=16 LMUL=1 vl=8 reps=16
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_56_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_56_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+153/284 Testing: redminmax_micro_58_Verilator
+153/284 Test: redminmax_micro_58_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_58_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_58_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_58_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       207
+Total Instructions: 67
+
+Busy REDMINMAX:     64
+Busy ALU:           4
+
+Testcase:
+
+vredmin.vs SEW=16 LMUL=2 vl=16 reps=16
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_58_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_58_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+152/284 Testing: redminmax_micro_57_Verilator
+152/284 Test: redminmax_micro_57_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_57_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_57_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_57_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       1711
+Total Instructions: 387
+
+Busy REDMINMAX:     544
+Busy ALU:           4
+
+Testcase:
+
+vredmin.vs SEW=16 LMUL=1 vl=8 reps=272
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_57_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_57_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+155/284 Testing: redminmax_micro_6_Verilator
+155/284 Test: redminmax_micro_6_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_6_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_6_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_6_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       395
+Total Instructions: 60
+
+Busy REDMINMAX:     256
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=8 LMUL=8 vl=128 reps=16
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_6_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_6_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+144/284 Testing: redminmax_micro_5_Verilator
+144/284 Test: redminmax_micro_5_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_5_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_5_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_5_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       3347
+Total Instructions: 387
+
+Busy REDMINMAX:     2176
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=8 LMUL=4 vl=64 reps=272
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_5_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_5_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+154/284 Testing: redminmax_micro_59_Verilator
+154/284 Test: redminmax_micro_59_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_59_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_59_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_59_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       2255
+Total Instructions: 387
+
+Busy REDMINMAX:     1088
+Busy ALU:           4
+
+Testcase:
+
+vredmin.vs SEW=16 LMUL=2 vl=16 reps=272
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_59_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_59_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+150/284 Testing: redminmax_micro_55_Verilator
+150/284 Test: redminmax_micro_55_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_55_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_55_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_55_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       5513
+Total Instructions: 378
+
+Busy REDMINMAX:     4352
+Busy ALU:           4
+
+Testcase:
+
+vredmin.vs SEW=8 LMUL=8 vl=128 reps=272
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_55_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_55_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+156/284 Testing: redminmax_micro_60_Verilator
+156/284 Test: redminmax_micro_60_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_60_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_60_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_60_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       275
+Total Instructions: 67
+
+Busy REDMINMAX:     128
+Busy ALU:           4
+
+Testcase:
+
+vredmin.vs SEW=16 LMUL=4 vl=32 reps=16
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_60_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_60_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+158/284 Testing: redminmax_micro_62_Verilator
+158/284 Test: redminmax_micro_62_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_62_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_62_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_62_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       395
+Total Instructions: 60
+
+Busy REDMINMAX:     256
+Busy ALU:           4
+
+Testcase:
+
+vredmin.vs SEW=16 LMUL=8 vl=64 reps=16
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_62_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_62_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+157/284 Testing: redminmax_micro_61_Verilator
+157/284 Test: redminmax_micro_61_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_61_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_61_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_61_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       3347
+Total Instructions: 387
+
+Busy REDMINMAX:     2176
+Busy ALU:           4
+
+Testcase:
+
+vredmin.vs SEW=16 LMUL=4 vl=32 reps=272
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_61_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_61_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+160/284 Testing: redminmax_micro_64_Verilator
+160/284 Test: redminmax_micro_64_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_64_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_64_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_64_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       172
+Total Instructions: 68
+
+Busy REDMINMAX:     32
+Busy ALU:           4
+
+Testcase:
+
+vredmin.vs SEW=32 LMUL=1 vl=4 reps=16
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_64_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_64_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+162/284 Testing: redminmax_micro_66_Verilator
+162/284 Test: redminmax_micro_66_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_66_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_66_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_66_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       204
+Total Instructions: 68
+
+Busy REDMINMAX:     64
+Busy ALU:           4
+
+Testcase:
+
+vredmin.vs SEW=32 LMUL=2 vl=8 reps=16
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_66_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_66_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+164/284 Testing: redminmax_micro_68_Verilator
+164/284 Test: redminmax_micro_68_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_68_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_68_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_68_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       272
+Total Instructions: 68
+
+Busy REDMINMAX:     128
+Busy ALU:           4
+
+Testcase:
+
+vredmin.vs SEW=32 LMUL=4 vl=16 reps=16
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_68_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_68_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+163/284 Testing: redminmax_micro_67_Verilator
+163/284 Test: redminmax_micro_67_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_67_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_67_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_67_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       2252
+Total Instructions: 388
+
+Busy REDMINMAX:     1088
+Busy ALU:           4
+
+Testcase:
+
+vredmin.vs SEW=32 LMUL=2 vl=8 reps=272
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_67_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_67_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+161/284 Testing: redminmax_micro_65_Verilator
+161/284 Test: redminmax_micro_65_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_65_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_65_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_65_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       1708
+Total Instructions: 388
+
+Busy REDMINMAX:     544
+Busy ALU:           4
+
+Testcase:
+
+vredmin.vs SEW=32 LMUL=1 vl=4 reps=272
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_65_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_65_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+159/284 Testing: redminmax_micro_63_Verilator
+159/284 Test: redminmax_micro_63_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_63_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_63_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_63_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       5515
+Total Instructions: 380
+
+Busy REDMINMAX:     4352
+Busy ALU:           4
+
+Testcase:
+
+vredmin.vs SEW=16 LMUL=8 vl=64 reps=272
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_63_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_63_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+167/284 Testing: redminmax_micro_70_Verilator
+167/284 Test: redminmax_micro_70_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_70_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_70_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_70_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       402
+Total Instructions: 62
+
+Busy REDMINMAX:     256
+Busy ALU:           4
+
+Testcase:
+
+vredmin.vs SEW=32 LMUL=8 vl=32 reps=16
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_70_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_70_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+165/284 Testing: redminmax_micro_69_Verilator
+165/284 Test: redminmax_micro_69_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_69_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_69_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_69_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       3344
+Total Instructions: 388
+
+Busy REDMINMAX:     2176
+Busy ALU:           4
+
+Testcase:
+
+vredmin.vs SEW=32 LMUL=4 vl=16 reps=272
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_69_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_69_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+171/284 Testing: redminmax_micro_74_Verilator
+171/284 Test: redminmax_micro_74_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_74_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_74_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_74_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       213
+Total Instructions: 68
+
+Busy REDMINMAX:     64
+Busy ALU:           4
+
+Testcase:
+
+vredminu.vs SEW=8 LMUL=2 vl=32 reps=16
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_74_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_74_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+170/284 Testing: redminmax_micro_73_Verilator
+170/284 Test: redminmax_micro_73_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_73_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_73_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_73_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       1717
+Total Instructions: 388
+
+Busy REDMINMAX:     544
+Busy ALU:           4
+
+Testcase:
+
+vredminu.vs SEW=8 LMUL=1 vl=16 reps=272
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_73_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_73_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+173/284 Testing: redminmax_micro_76_Verilator
+173/284 Test: redminmax_micro_76_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_76_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_76_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_76_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       281
+Total Instructions: 68
+
+Busy REDMINMAX:     128
+Busy ALU:           4
+
+Testcase:
+
+vredminu.vs SEW=8 LMUL=4 vl=64 reps=16
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_76_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_76_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+166/284 Testing: redminmax_micro_7_Verilator
+166/284 Test: redminmax_micro_7_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_7_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_7_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_7_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       5515
+Total Instructions: 380
+
+Busy REDMINMAX:     4352
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=8 LMUL=8 vl=128 reps=272
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_7_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_7_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+168/284 Testing: redminmax_micro_71_Verilator
+168/284 Test: redminmax_micro_71_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_71_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_71_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_71_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       5522
+Total Instructions: 382
+
+Busy REDMINMAX:     4352
+Busy ALU:           4
+
+Testcase:
+
+vredmin.vs SEW=32 LMUL=8 vl=32 reps=272
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_71_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_71_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+169/284 Testing: redminmax_micro_72_Verilator
+169/284 Test: redminmax_micro_72_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_72_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_72_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_72_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       181
+Total Instructions: 68
+
+Busy REDMINMAX:     32
+Busy ALU:           4
+
+Testcase:
+
+vredminu.vs SEW=8 LMUL=1 vl=16 reps=16
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_72_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_72_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+172/284 Testing: redminmax_micro_75_Verilator
+172/284 Test: redminmax_micro_75_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_75_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_75_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_75_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       2261
+Total Instructions: 388
+
+Busy REDMINMAX:     1088
+Busy ALU:           4
+
+Testcase:
+
+vredminu.vs SEW=8 LMUL=2 vl=32 reps=272
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_75_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_75_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+175/284 Testing: redminmax_micro_78_Verilator
+175/284 Test: redminmax_micro_78_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_78_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_78_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_78_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       401
+Total Instructions: 61
+
+Busy REDMINMAX:     256
+Busy ALU:           4
+
+Testcase:
+
+vredminu.vs SEW=8 LMUL=8 vl=128 reps=16
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_78_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_78_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+177/284 Testing: redminmax_micro_8_Verilator
+177/284 Test: redminmax_micro_8_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_8_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_8_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_8_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       176
+Total Instructions: 69
+
+Busy REDMINMAX:     32
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=16 LMUL=1 vl=8 reps=16
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_8_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_8_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+178/284 Testing: redminmax_micro_80_Verilator
+178/284 Test: redminmax_micro_80_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_80_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_80_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_80_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       183
+Total Instructions: 70
+
+Busy REDMINMAX:     32
+Busy ALU:           4
+
+Testcase:
+
+vredminu.vs SEW=16 LMUL=1 vl=8 reps=16
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_80_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_80_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+174/284 Testing: redminmax_micro_77_Verilator
+174/284 Test: redminmax_micro_77_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_77_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_77_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_77_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       3353
+Total Instructions: 388
+
+Busy REDMINMAX:     2176
+Busy ALU:           4
+
+Testcase:
+
+vredminu.vs SEW=8 LMUL=4 vl=64 reps=272
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_77_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_77_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+179/284 Testing: redminmax_micro_81_Verilator
+179/284 Test: redminmax_micro_81_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_81_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_81_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_81_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       1719
+Total Instructions: 390
+
+Busy REDMINMAX:     544
+Busy ALU:           4
+
+Testcase:
+
+vredminu.vs SEW=16 LMUL=1 vl=8 reps=272
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_81_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_81_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+181/284 Testing: redminmax_micro_83_Verilator
+181/284 Test: redminmax_micro_83_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_83_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_83_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_83_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       2263
+Total Instructions: 390
+
+Busy REDMINMAX:     1088
+Busy ALU:           4
+
+Testcase:
+
+vredminu.vs SEW=16 LMUL=2 vl=16 reps=272
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_83_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_83_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+180/284 Testing: redminmax_micro_82_Verilator
+180/284 Test: redminmax_micro_82_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_82_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_82_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_82_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       215
+Total Instructions: 70
+
+Busy REDMINMAX:     64
+Busy ALU:           4
+
+Testcase:
+
+vredminu.vs SEW=16 LMUL=2 vl=16 reps=16
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_82_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_82_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+182/284 Testing: redminmax_micro_84_Verilator
+182/284 Test: redminmax_micro_84_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_84_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_84_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_84_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       283
+Total Instructions: 70
+
+Busy REDMINMAX:     128
+Busy ALU:           4
+
+Testcase:
+
+vredminu.vs SEW=16 LMUL=4 vl=32 reps=16
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_84_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_84_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+176/284 Testing: redminmax_micro_79_Verilator
+176/284 Test: redminmax_micro_79_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_79_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_79_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_79_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       5521
+Total Instructions: 381
+
+Busy REDMINMAX:     4352
+Busy ALU:           4
+
+Testcase:
+
+vredminu.vs SEW=8 LMUL=8 vl=128 reps=272
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_79_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_79_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+184/284 Testing: redminmax_micro_86_Verilator
+184/284 Test: redminmax_micro_86_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_86_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_86_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_86_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       403
+Total Instructions: 63
+
+Busy REDMINMAX:     256
+Busy ALU:           4
+
+Testcase:
+
+vredminu.vs SEW=16 LMUL=8 vl=64 reps=16
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_86_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_86_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+186/284 Testing: redminmax_micro_88_Verilator
+186/284 Test: redminmax_micro_88_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_88_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_88_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_88_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       175
+Total Instructions: 71
+
+Busy REDMINMAX:     32
+Busy ALU:           4
+
+Testcase:
+
+vredminu.vs SEW=32 LMUL=1 vl=4 reps=16
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_88_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_88_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+183/284 Testing: redminmax_micro_85_Verilator
+183/284 Test: redminmax_micro_85_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_85_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_85_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_85_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       3355
+Total Instructions: 390
+
+Busy REDMINMAX:     2176
+Busy ALU:           4
+
+Testcase:
+
+vredminu.vs SEW=16 LMUL=4 vl=32 reps=272
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_85_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_85_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+189/284 Testing: redminmax_micro_90_Verilator
+189/284 Test: redminmax_micro_90_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_90_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_90_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_90_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       207
+Total Instructions: 71
+
+Busy REDMINMAX:     64
+Busy ALU:           4
+
+Testcase:
+
+vredminu.vs SEW=32 LMUL=2 vl=8 reps=16
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_90_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_90_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+191/284 Testing: redminmax_micro_92_Verilator
+191/284 Test: redminmax_micro_92_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_92_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_92_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_92_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       275
+Total Instructions: 71
+
+Busy REDMINMAX:     128
+Busy ALU:           4
+
+Testcase:
+
+vredminu.vs SEW=32 LMUL=4 vl=16 reps=16
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_92_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_92_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+187/284 Testing: redminmax_micro_89_Verilator
+187/284 Test: redminmax_micro_89_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_89_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_89_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_89_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       1711
+Total Instructions: 391
+
+Busy REDMINMAX:     544
+Busy ALU:           4
+
+Testcase:
+
+vredminu.vs SEW=32 LMUL=1 vl=4 reps=272
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_89_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_89_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+185/284 Testing: redminmax_micro_87_Verilator
+185/284 Test: redminmax_micro_87_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_87_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_87_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_87_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       5523
+Total Instructions: 383
+
+Busy REDMINMAX:     4352
+Busy ALU:           4
+
+Testcase:
+
+vredminu.vs SEW=16 LMUL=8 vl=64 reps=272
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_87_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_87_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+190/284 Testing: redminmax_micro_91_Verilator
+190/284 Test: redminmax_micro_91_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_91_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_91_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_91_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       2255
+Total Instructions: 391
+
+Busy REDMINMAX:     1088
+Busy ALU:           4
+
+Testcase:
+
+vredminu.vs SEW=32 LMUL=2 vl=8 reps=272
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_91_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_91_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+188/284 Testing: redminmax_micro_9_Verilator
+188/284 Test: redminmax_micro_9_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_9_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_9_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_9_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       1713
+Total Instructions: 389
+
+Busy REDMINMAX:     544
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=16 LMUL=1 vl=8 reps=272
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_9_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_9_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+193/284 Testing: redminmax_micro_94_Verilator
+193/284 Test: redminmax_micro_94_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_94_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_94_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_94_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       405
+Total Instructions: 65
+
+Busy REDMINMAX:     256
+Busy ALU:           4
+
+Testcase:
+
+vredminu.vs SEW=32 LMUL=8 vl=32 reps=16
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_94_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_94_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+195/284 Testing: redminmax_micro_96_Verilator
+195/284 Test: redminmax_micro_96_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_96_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_96_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_96_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       395
+Total Instructions: 60
+
+Busy REDMINMAX:     256
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=8 LMUL=8 vl=1 reps=16
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_96_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_96_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+197/284 Testing: redminmax_micro_98_Verilator
+197/284 Test: redminmax_micro_98_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_98_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_98_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_98_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       395
+Total Instructions: 60
+
+Busy REDMINMAX:     256
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=8 LMUL=8 vl=2 reps=16
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_98_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_98_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+192/284 Testing: redminmax_micro_93_Verilator
+192/284 Test: redminmax_micro_93_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_93_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_93_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_93_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       3347
+Total Instructions: 391
+
+Busy REDMINMAX:     2176
+Busy ALU:           4
+
+Testcase:
+
+vredminu.vs SEW=32 LMUL=4 vl=16 reps=272
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_93_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_93_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+196/284 Testing: redminmax_micro_97_Verilator
+196/284 Test: redminmax_micro_97_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_97_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_97_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_97_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       5515
+Total Instructions: 380
+
+Busy REDMINMAX:     4352
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=8 LMUL=8 vl=1 reps=272
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_97_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_97_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+194/284 Testing: redminmax_micro_95_Verilator
+194/284 Test: redminmax_micro_95_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_95_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_95_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_95_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       5525
+Total Instructions: 385
+
+Busy REDMINMAX:     4352
+Busy ALU:           4
+
+Testcase:
+
+vredminu.vs SEW=32 LMUL=8 vl=32 reps=272
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_95_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_95_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+198/284 Testing: redminmax_micro_99_Verilator
+198/284 Test: redminmax_micro_99_Verilator
+Command: "/home/nolisto/Development/Code/vicuna2_benchmarking/processor_models/verilator/build/verilated_model" "/home/nolisto/Development/Code/vicuna2_benchmarking/build_programs/build/benchmark_sources/generic_cpp/prog_redminmax_micro_99_Verilator.txt" "1" "32" "4194304" "1" "1" "redminmax_micro_99_Verilator" "128" "0"
+Directory: /../..
+"redminmax_micro_99_Verilator" start time: Nov 04 09:44 CET
+Output:
+----------------------------------------------------------
+Starting Verilator Main()
+Total Cycles:       5515
+Total Instructions: 380
+
+Busy REDMINMAX:     4352
+Busy ALU:           4
+
+Testcase:
+
+vredmax.vs SEW=8 LMUL=8 vl=2 reps=272
+
+SUCCESS: TEST PASS
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"redminmax_micro_99_Verilator" end time: Nov 04 09:44 CET
+"redminmax_micro_99_Verilator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 04 09:44 CET
