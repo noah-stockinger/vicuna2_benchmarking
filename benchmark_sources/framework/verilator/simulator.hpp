@@ -14,6 +14,7 @@ private:
   // Stats variables
   uint32_t start_cycles, start_instr;
   uint32_t end_cycles, end_instr;
+  uint32_t start_busy_redminmax, start_busy_alu;
 
   // Memory mapped address to terminate execution
   volatile int *const terminate_addr = (int *)0x00000408;
@@ -24,6 +25,9 @@ public:
   // Function to start measurement
   // Verilator Simulation uses simulated CSRs
   inline void begin_measurement() {
+    // Busy counters (0xC10), immediate selects the unit: 10 = REDMINMAX, 1 = ALU
+    asm volatile("csrrsi %0, 0xC10, 10" : "=r"(start_busy_redminmax));
+    asm volatile("csrrsi %0, 0xC10, 1" : "=r"(start_busy_alu));
     asm volatile("csrr %0,mcycle" : "=r"(start_cycles));
     asm volatile("csrr %0,minstret" : "=r"(start_instr));
     address_match_start();
@@ -37,6 +41,13 @@ public:
     asm volatile("csrr %0,minstret" : "=r"(end_instr));
     uart_printf("Total Cycles:       %d\n", end_cycles - start_cycles);
     uart_printf("Total Instructions: %d\n\n", end_instr - start_instr);
+
+    // Read after the prints: a read right after the kernel overtakes the last reduction
+    uint32_t end_busy_redminmax, end_busy_alu;
+    asm volatile("csrrsi %0, 0xC10, 10" : "=r"(end_busy_redminmax));
+    asm volatile("csrrsi %0, 0xC10, 1" : "=r"(end_busy_alu));
+    uart_printf("Busy REDMINMAX:     %u\n", end_busy_redminmax - start_busy_redminmax);
+    uart_printf("Busy ALU:           %u\n\n", end_busy_alu - start_busy_alu);
   };
 
   // Termination success or failure function for this simulator

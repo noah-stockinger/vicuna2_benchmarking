@@ -210,7 +210,7 @@ if ( ${SCALAR_CORE} STREQUAL "cv32e40x" )
                                 -Wno-WIDTHCONCAT
                                 -Wno-ENUMVALUE 
                                 -Wno-SELRANGE -Wno-LATCH #These might be caused from not connecting everything properly
-                                -Wno-IMPLICITSTATIC      
+                                -Wno-IMPLICITSTATIC
                                 #+define+COREV_ASSERT_OFF       #Fixes UVM error with CV32E40X (Needed when not using -DVPROC_SVA)
                                 ${TRACE_FLAG} 
                                 --assert -DVPROC_SVA
@@ -239,7 +239,7 @@ elseif( ${SCALAR_CORE} STREQUAL "cv32a60x" ) #TODO: Verify/Test support for floa
                                 -Wno-WIDTHCONCAT
                                 -Wno-ENUMVALUE 
                                 -Wno-SELRANGE -Wno-LATCH #These might be caused from not connecting everything properly
-                                -Wno-IMPLICITSTATIC      
+                                -Wno-IMPLICITSTATIC
                                 #+define+COREV_ASSERT_OFF       #Fixes UVM error with CV32E40X (Needed when not using -DVPROC_SVA)
                                 #--clk clk_i
                                 ${TRACE_FLAG} 
@@ -254,11 +254,15 @@ elseif( ${SCALAR_CORE} STREQUAL "cv32a60x" ) #TODO: Verify/Test support for floa
                                 ${RISCV_ZVE32F}
                                 ${RISCV_ZVFH}
                                 ${COMMIT_AND_ISSUE}
+                                ${CMAKE_CURRENT_SOURCE_DIR}/${SCALAR_CORE}/harness_public.vlt #Keeps signals read by the testbench visible
                                 -CFLAGS "-std=gnu++14 -O2")
 
 
 
         # Compile verilator model as a shared library for linking with gem5.  This prevents a rebuild of gem5 every time the model changes.  Currently only supported for CVA6
+        # Only needed for gem5/hybrid simulation; set -DGEM5_LIB=OFF for Verilator-only builds (paths below assume an in-tree Verilator build)
+        option(GEM5_LIB "Build verilated_model_lib for gem5/hybrid simulation" ON)
+        if(GEM5_LIB)
         add_library(verilated_model_lib SHARED)
 
         file(GLOB VERILATOR_FILES "${CMAKE_CURRENT_SOURCE_DIR}/build/CMakeFiles/verilated_model.dir/Vvproc_top.dir/*.cpp" )
@@ -275,6 +279,7 @@ elseif( ${SCALAR_CORE} STREQUAL "cv32a60x" ) #TODO: Verify/Test support for floa
         ${TOOLCHAIN_TOP}/verilator/include/vltstd/
         ${TOOLCHAIN_TOP}/verilator/include/
         )
+        endif()
 
 
 else()
